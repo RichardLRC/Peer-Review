@@ -1,0 +1,901 @@
+id,title,average_rating,std_rating
+zyhxRc9bew,What is Flagged in Uncertainty Quantification?  Latent Density Models for Uncertainty Categorization,6.0,0.0
+zyZkaqNnpa,Don’t blame Dataset Shift! Shortcut Learning due to Gradients and Cross Entropy,5.75,0.4330127018922193
+ztDxO15N7f,An Optimization-based Approach To Node Role Discovery in Networks: Approximating Equitable Partitions,5.5,0.5
+zrLxHYvIFL,Discover and Align Taxonomic Context Priors  for Open-world Semi-Supervised Learning,5.25,0.4330127018922193
+znW5jNIOED,Optimizing over trained GNNs via symmetry breaking,6.75,0.4330127018922193
+zkfyOkBVpz,Curriculum Learning With Infant Egocentric Videos,6.5,0.5
+zfCNwRQ569,Interpreting Unsupervised Anomaly Detection in Security via Rule Extraction,5.25,0.4330127018922193
+zaQ7wV9NOg,Optimistic Natural Policy Gradient: a Simple Efficient Policy Optimization Framework  for Online RL,7.2,0.3999999999999999
+zW1uVN6Mbv,Unpaired Multi-Domain Causal Representation Learning,6.5,0.5
+zTSlm4nmlH,Beta Diffusion,6.25,0.4330127018922193
+zQ4yraDiRe,Multi-scale Diffusion Denoised Smoothing,5.4,0.4898979485566356
+zNA7u7wtIN,P-Flow: A Fast and Data-Efficient Zero-Shot TTS through Speech Prompting,5.5,0.5
+zANxvzflMl,Towards Foundation Models for Scientific Machine Learning: Characterizing Scaling and Transfer Behavior,6.25,0.4330127018922193
+ymBG2xs9Zf,Model-Based Control with Sparse Neural Dynamics,5.25,0.4330127018922193
+ykvvv0gc4R,Deep Momentum Multi-Marginal Schrödinger Bridge,6.0,0.0
+yjWVd8Fhqt,OBJECT 3DIT: Language-guided 3D-aware Image Editing,5.2,0.3999999999999999
+yhNHpLWJDl,Finite-Time Analysis of Whittle Index based Q-Learning for Restless Multi-Armed Bandits with Neural Network Function Approximation,6.4,0.4898979485566356
+yaJ4vZPnHX,Complexity of Derivative-Free Policy Optimization for Structured $\mathcal{H}_\infty$ Control,5.666666666666667,0.4714045207910317
+yT0f93CeTw,Fast Conditional Mixing of MCMC Algorithms for Non-log-concave Distributions,6.75,0.4330127018922193
+yC3q7vInux,Siamese Masked Autoencoders,6.8,0.3999999999999999
+yBVLXvJ1sb,Error Discovery By Clustering Influence Embeddings,6.6,0.4898979485566356
+xzmaFfw6oh,Molecule Joint Auto-Encoding: Trajectory Pretraining with 2D and 3D Diffusion,5.5,0.5
+xz8j3r3oUA,Color Equivariant Convolutional Networks,5.5,0.5
+xo2lbfQE8I,Fitting trees to $\ell_1$-hyperbolic distances,5.5,0.5
+xmxgMij3LY,Michelangelo: Conditional 3D Shape Generation based on Shape-Image-Text Aligned Latent Representation,5.5,0.5
+xgzkuTGBTx,Asymptotics of Bayesian Uncertainty Estimation in Random Features Regression,5.5,0.5
+xgY4QcOiEZ,Learning a Neuron by a Shallow ReLU Network: Dynamics and Implicit Bias for Correlated Inputs,6.25,0.4330127018922193
+xdOoCWCYaY,Towards Data-Agnostic Pruning At Initialization: What Makes a Good Sparse Mask?,5.8,0.3999999999999999
+xcGhx9FdxM,Adversarial Resilience in Sequential Prediction via Abstention,5.5,0.5
+xbbknN9QFs,On Evaluating Adversarial Robustness of Large Vision-Language Models,6.75,0.4330127018922193
+xSEhb2j3TK,Act As You Wish: Fine-Grained Control of Motion Diffusion Model with Hierarchical Semantic Graphs,5.75,0.4330127018922193
+xPLaXSuSvQ,Learning DAGs from Data with Few Root Causes,5.5,0.5
+xOzlW2vUYc,CrossGNN: Confronting Noisy Multivariate Time Series Via Cross Interaction Refinement,5.5,0.5
+xOJUmwwlJc,Proximity-Informed Calibration for Deep Neural Networks,6.5,0.5
+xNyR7DXUzJ,RL-based Stateful Neural Adaptive Sampling and Denoising for Real-Time Path Tracing,5.25,0.4330127018922193
+xMgO04HDOS,Hierarchical Multi-Agent Skill Discovery,5.6,0.4898979485566356
+xINPCvgULc,Robust Bayesian Satisficing,5.75,0.4330127018922193
+xF89MjFbWp,Kullback-Leibler Maillard Sampling for Multi-armed Bandits with Bounded Rewards,5.5,0.5
+xBqjoG0NxM,SODA: Robust Training of Test-Time Data Adaptors,5.25,0.4330127018922193
+xBhvMu4J03,"Do Not Marginalize Mechanisms, Rather Consolidate!",6.333333333333333,0.4714045207910317
+x5fs7TXKDc,FedNAR: Federated Optimization with Normalized Annealing Regularization,6.5,0.5
+x5ZruOa4ax,Improving *day-ahead* Solar Irradiance Time Series Forecasting by Leveraging Spatio-Temporal Context,6.5,0.5
+wwmKVO8bsR,Federated Learning with Bilateral Curation for Partially Class-Disjoint Data,5.75,0.4330127018922193
+wv79UiY5U7,Data Curation for Image Captioning with Text-to-Image Generative Models,3.4,0.4898979485566356
+wkIBfnGPTA,VillanDiffusion: A Unified Backdoor Attack Framework for Diffusion Models,5.25,0.4330127018922193
+wiv21EJ0Vd,Zero-shot Visual Relation Detection via Composite Visual Cues from Large Language Models,5.2,0.3999999999999999
+wiidCRA3at,Stein $\Pi$-Importance Sampling,6.4,0.4898979485566356
+wg3d2FKAm8,Outlier-Robust Wasserstein DRO,6.0,0.0
+wcdF6jR0Sp,Consistent Aggregation of Objectives with Diverse Time Preferences Requires Non-Markovian Rewards,6.0,0.0
+wbg4JEM5Jp,Improved Best-of-Both-Worlds Guarantees for Multi-Armed Bandits: FTRL with General Regularizers and Multiple Optimal Arms,6.25,0.4330127018922193
+wbbTqsiKzl,High-dimensional Asymptotics of Denoising Autoencoders,7.0,0.0
+waXoG35kbb,Provable benefits of score matching,6.75,0.4330127018922193
+wS3PPBUDX8,Constructing Semantics-Aware Adversarial Examples with Probabilistic Perspective,5.25,0.4330127018922193
+wRhLd65bDt,Improving Diffusion-Based Image Synthesis with Context Prediction,5.8,0.3999999999999999
+wRJqZRxDEX,Critical Initialization of Wide and Deep Neural Networks using Partial Jacobians: General Theory and Applications,6.5,0.5
+wNxyDofh74,Progressive Ensemble Distillation: Building Ensembles for Efficient Inference,5.6,0.4898979485566356
+wLiMhVJ7fx,Calibrating Neural Simulation-Based Inference with Differentiable Coverage Probability,6.75,0.4330127018922193
+wBJBLy9kBY,Ambient Diffusion: Learning Clean Distributions from Corrupted Data,6.25,0.4330127018922193
+w79RtqIyoM,Compositional Sculpting of Iterative Generative Processes,6.333333333333333,0.4714045207910317
+vz7SdRqWGM,Adaptive whitening with fast gain modulation and slow synaptic plasticity,6.75,0.4330127018922193
+vtoY8qJjTR,"Train Once, Get a Family: State-Adaptive Balances for Offline-to-Online Reinforcement Learning",6.75,0.4330127018922193
+vpMBqdt9Hl,Combinatorial Optimization with Policy Adaptation using Latent Space Search,5.75,0.4330127018922193
+vlDbqzwczj,A Novel Approach for Effective Multi-View Clustering with Information-Theoretic Perspective,6.4,0.4898979485566356
+vOBfqhmOoM,Physics-informed generative model for drug-like molecule conformers,3.25,0.4330127018922193
+vO04AzsB49,Imitation Learning from Imperfection: Theoretical Justifications and Algorithms,6.5,0.5
+v9yC7sSXf3,Deep Neural Collapse Is Provably Optimal for the Deep Unconstrained Features Model,6.5,0.5
+v6jIxRRDyD,Adaptive Algorithms for Relaxed Pareto Set Identification,5.75,0.4330127018922193
+v54eUIayFh,UniControl: A Unified Diffusion Model for Controllable Visual Generation In the Wild,5.4,0.4898979485566356
+v0GzRLvVp3,Temporal Continual Learning with Prior Compensation for Human Motion Prediction,5.2,0.3999999999999999
+uvdJgFFzby,Dynamic Context Pruning for Efficient and Interpretable Autoregressive Transformers,7.0,0.0
+uoG1fLIK2s,Sample-efficient Multi-objective Molecular Optimization with GFlowNets,5.5,0.5
+umvV3yvo4N,Energy-Based Sliced Wasserstein Distance,5.75,0.4330127018922193
+uiiVSVADDc,Annotator: A Generic Active Learning Baseline for LiDAR Semantic Segmentation,6.2,0.3999999999999999
+uhKtQMn21D,Mechanic: A Learning Rate Tuner,6.5,0.5
+ubzNoJjOKj,HyenaDNA: Long-Range Genomic Sequence Modeling at Single Nucleotide Resolution,7.2,0.3999999999999999
+uWGH6jDTVv,Complementary Benefits of Contrastive Learning and Self-Training Under Distribution Shift,6.5,0.5
+uR8TtWCIsr,A Logic for Expressing Log-Precision Transformers,7.0,0.0
+uN71BdBEG8,The Graph Pencil Method: Mapping Subgraph Densities to Stochastic Block Models,5.666666666666667,0.4714045207910317
+uFlE0qgtRO,Focus Your Attention when Few-Shot Classification,4.8,0.3999999999999999
+uDV4lA0gZ6,Efficient Robust Bayesian Optimization for Arbitrary Uncertain inputs,5.5,0.5
+u8srPlinoj,ReDS: Offline RL With Heteroskedastic Datasets via Support Constraints,5.5,0.5
+u6BYyPuD29,MADG: Margin-based Adversarial Learning for Domain Generalization,5.4,0.4898979485566356
+u39QQh5L8Q,Uncovering motifs of concurrent signaling across multiple neuronal populations,7.25,0.4330127018922193
+u359tNBpxF,Robust Data Valuation with Weighted Banzhaf Values,6.0,0.0
+tzxP9Rx0LV,Knowledge Distillation Performs Partial Variance Reduction,6.5,0.5
+tp2nEZ5zfP,NetHack is Hard to Hack,6.6,0.4898979485566356
+tkenkPYkxj,Exponential Lower Bounds for Fictitious Play in Potential Games,7.0,0.0
+tj86aGVNb3,Feature learning via mean-field Langevin dynamics: classifying sparse parities and beyond,6.0,0.0
+tesBViWnbx,Stable Diffusion is Unstable,6.5,0.5
+tScBQRNgjk,ForecastPFN: Synthetically-Trained Zero-Shot Forecasting,5.25,0.4330127018922193
+tSEeRl7ACo,Human-Guided Complexity-Controlled Abstractions,5.5,0.5
+tLrkjK128n,Optimistic Active Exploration of Dynamical Systems,5.5,0.5
+tLTtqySDFb,Not All Neuro-Symbolic Concepts Are Created Equal: Analysis and Mitigation of Reasoning Shortcuts,6.75,0.4330127018922193
+tIzbNQko3c,Pre-Training Protein Encoder via Siamese Sequence-Structure Diffusion Trajectory Prediction,6.75,0.4330127018922193
+tEKBU5XOTw,Safety Verification of Decision-Tree Policies in Continuous Time,6.5,0.5
+tECyQO1QOp,Doubly Constrained Fair Clustering,6.0,0.0
+t6nA7x3GAC,Trans-Dimensional Generative Modeling via Jump Diffusion Models,7.25,0.4330127018922193
+t3vPEjgNtj,QuadAttac$K$: A Quadratic Programming Approach to Learning Ordered Top-$K$ Adversarial Attacks,5.25,0.4330127018922193
+t0fkjO4aZj,A unified framework for information-theoretic generalization bounds,6.25,0.4330127018922193
+suzMI2P1rT,CEIL: Generalized Contextual Imitation Learning,6.2,0.3999999999999999
+srJvUWZu6L,ViDA: Homeostatic Visual Domain Adapter for Continual Test Time Adaptation,5.5,0.5
+sqkGJjIRfG,HASSOD: Hierarchical Adaptive Self-Supervised Object Detection,4.75,0.4330127018922193
+sgCrNMOuXp,Data Market Design through Deep Learning,5.4,0.4898979485566356
+sbusw6LD41,Quantizable Transformers: Removing Outliers by Helping Attention Heads Do Nothing,6.25,0.4330127018922193
+sJDkwMVqb9,Cross-links Matter for Link Prediction: Rethinking the Debiased GNN from a Data Perspective,5.8,0.3999999999999999
+sABYNWKcwK,Doubly Robust Augmented Transfer for Meta-Reinforcement Learning,6.75,0.4330127018922193
+s86M8naPSv,Soft-Unification in Deep Probabilistic Logic,6.333333333333333,0.4714045207910317
+s1jQ91yFAb,On Certified Generalization in Structured Prediction,6.0,0.0
+rybsHQ4DXy,EgoEnv: Human-centric environment representations from egocentric video,7.4,0.4898979485566356
+rsrfEIdawr,DäRF: Boosting Radiance Fields from Sparse Input Views with Monocular Depth Adaptation,5.4,0.4898979485566356
+rmQgQCZWiP,Managing Temporal Resolution in Continuous Value Estimation: A Fundamental Trade-off,6.4,0.4898979485566356
+rfTFJvTkr2,Parallel Spiking Neurons with High Efficiency and Ability to Learn Long-term Dependencies,6.5,0.5
+rcXXNFVlEn,Why think step by step? Reasoning emerges from the locality of experience,7.25,0.4330127018922193
+rbw9xCU6Ci,Adaptive Test-Time Personalization for Federated Learning,4.75,0.4330127018922193
+rUf0GV5CuU,Locality Sensitive Hashing in Fourier Frequency Domain For Soft Set Containment Search,6.333333333333333,0.4714045207910317
+rUFckPrzXR,Homotopy-based training of NeuralODEs for accurate dynamics discovery,6.2,0.3999999999999999
+rJc5Lsn5QU,ARTIC3D: Learning Robust Articulated 3D Shapes from Noisy Web Image Collections,5.5,0.5
+rGN3X9jnEg,Formalizing locality for normative synaptic plasticity models,6.5,0.5
+rG1M3kOVba,FLuID: Mitigating Stragglers in Federated Learning using Invariant Dropout,5.25,0.4330127018922193
+rDiMgZulwi,Learning better with Dale’s Law: A Spectral Perspective,5.5,0.5
+r6xGZ0XL2g,Meta-Learning Adversarial Bandit Algorithms,6.166666666666667,0.3726779962499649
+r44obB8FY5,Deterministic Strided and Transposed Convolutions for Point Clouds Operating Directly on the Points,3.25,0.4330127018922193
+qyixBZl8Ph,Global Update Tracking: A Decentralized Learning Algorithm for Heterogeneous Data,5.5,0.5
+quMBEd27x9,Performance Scaling via Optimal Transport: Enabling Data Selection from Partially Revealed Sources,5.75,0.4330127018922193
+ql6LVyi2Dg,Stability and Generalization of the Decentralized Stochastic Gradient Descent Ascent Algorithm,5.4,0.4898979485566356
+qjnl1QUnFA,High-Fidelity Audio Compression with Improved RVQGAN,7.0,0.0
+qZjl2TKvUY,One Risk to Rule Them All: A Risk-Sensitive Perspective on Model-Based Offline Reinforcement Learning,6.25,0.4330127018922193
+qYAp31KwU2,Multi-Objective Intrinsic Reward Learning for Conversational Recommender Systems,5.25,0.4330127018922193
+qY7UqLoora,Are GATs Out of Balance?,6.5,0.5
+qVeDwgYsho,CoPriv: Network/Protocol Co-Optimization for Communication-Efficient Private Inference,6.5,0.5
+qVMPXrX4FR,LambdaBeam: Neural Program Search with Higher-Order Functions and Lambdas,6.75,0.4330127018922193
+qUlpDjYnsp,Multi-resolution Spectral Coherence for Graph Generation with Score-based Diffusion,6.0,0.0
+qSS9izTOpo,Alleviating the Semantic Gap for Generalized fMRI-to-Image Reconstruction,6.25,0.4330127018922193
+qS9aHF8bXz,Provably Efficient Offline Goal-Conditioned Reinforcement Learning with General Function Approximation and Single-Policy Concentrability,6.25,0.4330127018922193
+qP0Drg2HuH,Read and Reap the Rewards: Learning to Play Atari with the Help of Instruction Manuals,5.75,0.4330127018922193
+q9WMXjUxxT,Trust Region-Based Safe Distributional Reinforcement Learning for Multiple Constraints,6.0,0.0
+q6bVqOgGxP,"Triple Eagle: Simple, Fast and Practical Budget-Feasible Mechanisms",7.0,0.0
+q3fA5tTod3,Brain Dissection: fMRI-trained Networks Reveal Spatial Selectivity in the Processing of Natural Images,5.5,0.5
+q131tA7HCT,Learning Linear Causal Representations from Interventions under General Nonlinear Mixing,7.5,0.5
+pzc6LnUxYN,StateMask: Explaining Deep Reinforcement Learning through State Mask,6.0,0.0
+puupdGOWUp,GraphPatcher: Mitigating Degree Bias for Graph Neural Networks via Test-time Augmentation,5.5,0.5
+psXVkKO9No,Self-Predictive Universal AI,5.4,0.4898979485566356
+prftZp6mDH,Label Poisoning is All You Need,4.6,0.4898979485566356
+ppJuFSOAnM,ProlificDreamer: High-Fidelity and Diverse Text-to-3D Generation with Variational Score Distillation,6.8,0.3999999999999999
+pcKwgdVAlq,Binarized Spectral Compressive Imaging,6.6,0.4898979485566356
+pVlC0reMKq,RETVec: Resilient and Efficient Text Vectorizer,7.0,0.0
+pTCZWSDltG,CorresNeRF: Image Correspondence Priors for Neural Radiance Fields,4.6,0.4898979485566356
+pT8DIhsJCw,Parameter-efficient Tuning of Large-scale Multimodal Foundation Model,5.2,0.3999999999999999
+pQF9kbM8Ea,Leveraging Vision-Centric Multi-Modal Expertise for 3D Object Detection,5.4,0.4898979485566356
+pO7d6iFdnc,ESSEN: Improving Evolution State Estimation for Temporal Networks using Von Neumann Entropy,6.0,0.0
+pLsPFxqn7J,Kernelized Cumulants: Beyond Kernel Mean Embeddings,6.8,0.3999999999999999
+pJbEXBBN88,Adversarial Examples Exist in Two-Layer ReLU Networks for Low Dimensional Linear Subspaces,6.0,0.0
+pH4Fv7C3yC,Causal Effect Identification in Uncertain Causal Networks,6.4,0.4898979485566356
+p9k5MS0JAL,Demystifying the Optimal Performance of Multi-Class Classification,5.75,0.4330127018922193
+p8lowHbuv8,From Trainable Negative Depth to Edge Heterophily in Graphs,6.5,0.5
+p40XRfBX96,Principle-Driven Self-Alignment of Language Models from Scratch with Minimal Human Supervision,6.6,0.4898979485566356
+p1gzxzJ4Y5,FlowPG: Action-constrained Policy Gradient with Normalizing Flows,5.25,0.4330127018922193
+oyFyOPZUCs,Language-based Action Concept Spaces Improve Video Self-Supervised Learning,5.4,0.4898979485566356
+oxj8mx4Sv2,Deep Discriminative to Kernel Generative Networks for Calibrated Inference,4.0,0.0
+ouLe91yibj,On the Properties of Kullback-Leibler Divergence Between Multivariate Gaussian Distributions,6.6,0.4898979485566356
+oss2jXD1Zs,Linear Time Algorithms for k-means with Multi-Swap Local Search,6.25,0.4330127018922193
+ofa1U5BJVJ,Online (Multinomial) Logistic Bandit: Improved Regret and Constant Computation Cost,6.4,0.4898979485566356
+ody3RBUuJS,FedGCN: Convergence-Communication Tradeoffs in Federated Training of Graph Convolutional Networks,6.25,0.4330127018922193
+oOXZ5JEjPb,Activity Grammars for Temporal Action Segmentation,5.0,0.0
+oMm1dfo3tK,Unbiased constrained sampling with Self-Concordant Barrier Hamiltonian Monte Carlo,6.25,0.4330127018922193
+oKqaWlEfjY,Worst-case Performance of Popular Approximate Nearest Neighbor Search Implementations: Guarantees and Limitations,5.333333333333333,0.4714045207910317
+oGxE2Nvlda,UniT: A Unified Look at Certified Robust Training against Text Adversarial Perturbation,5.6,0.4898979485566356
+oFpBnt6bgC,Generate What You Prefer: Reshaping Sequential Recommendation via Guided Diffusion,5.666666666666667,0.4714045207910317
+oDcWnfZyZW,Unified Off-Policy Learning to Rank: a Reinforcement Learning Perspective,5.6,0.4898979485566356
+oAHjj0of5z,Indeterminate Probability Neural Network,3.333333333333333,0.4714045207910317
+o16sYKHk3S,Identifiability Guarantees for Causal Disentanglement from Soft Interventions,5.5,0.5
+nzkWhoXUpv,Individual Arbitrariness and Group Fairness,7.25,0.4330127018922193
+nrbR2F29vU,A Scale-Invariant Sorting Criterion to Find a Causal Order in Additive Noise Models,6.5,0.5
+nrQif5tH7O,Leave No Stone Unturned: Mine Extra Knowledge for Imbalanced Facial Expression Recognition,6.6,0.4898979485566356
+neu9JlNweE,Post-processing Private Synthetic Data for Improving Utility on Selected Measures,6.5,0.5
+ne6zeqLFCZ,Symbolic Discovery of Optimization Algorithms,6.0,0.0
+nX0zYBGEka,FedGame: A Game-Theoretic Defense against Backdoor Attacks in Federated Learning,5.75,0.4330127018922193
+nKCUDd9GYu,A Framework for Fast and Stable Representations of Multiparameter Persistent Homology Decompositions,6.5,0.5
+nCLdsEzZBV,The Equivalence of Dynamic and Strategic Stability under Regularized Learning in Games,6.666666666666667,0.4714045207910317
+n84bzMrGUD,Clifford Group Equivariant Neural Networks,7.6,0.4898979485566356
+mvSDs51eqQ,"Optimality in Mean Estimation: Beyond Worst-Case, Beyond Sub-Gaussian, and Beyond $1+\alpha$ Moments",6.75,0.4330127018922193
+mlxRLIy7kc,Language Quantized AutoEncoders: Towards Unsupervised Text-Image Alignment,5.75,0.4330127018922193
+mkKQr56xdB,Memory-Constrained Algorithms for Convex Optimization,6.333333333333333,0.4714045207910317
+mgNu8nDFwa,Beyond Average Return in Markov Decision Processes,6.5,0.5
+mayAyPrhJI,Bridging Discrete and Backpropagation: Straight-Through and Beyond,7.166666666666667,0.3726779962499649
+mVywRIDNIl,Reining Generalization in Offline Reinforcement Learning via Representation Distinction,6.0,0.0
+mVTyeQIiE4,Hierarchical Gaussian Mixture based Task Generative Model for Robust Meta-Learning,5.5,0.5
+mQPNcBWjGc,Scaling Open-Vocabulary Object Detection,6.75,0.4330127018922193
+mOVEJletyD,Slimmed Asymmetrical Contrastive Learning and Cross Distillation for Lightweight Model Training,6.0,0.0
+mA7nTGXjD3,Provably Fast Convergence of Independent Natural Policy Gradient for Markov Potential Games,6.25,0.4330127018922193
+m2WR1yJ8N9,Better with Less: A Data-Active Perspective on Pre-Training Graph Neural Networks,6.25,0.4330127018922193
+lwg3ohkFRv,CARE: Modeling Interacting Dynamics Under Temporal Environmental Variation,6.666666666666667,0.4714045207910317
+lp9GR2t3hn,ProtoDiff: Learning to Learn Prototypical Networks by Task-Guided Diffusion,6.75,0.4330127018922193
+loixpHDZKj,Robust Learning for Smoothed Online Convex Optimization with Feedback Delay,5.333333333333333,0.4714045207910317
+lds9D17HRd,A Tale of Two Features: Stable Diffusion Complements DINO for Zero-Shot Semantic Correspondence,6.6,0.4898979485566356
+lYNSvp51a7,Lift Yourself Up: Retrieval-augmented Text Generation with Self-Memory,5.4,0.4898979485566356
+lXOoR4KYcJ,Entropy-based Training Methods for Scalable Neural Implicit Samplers,5.5,0.5
+lSZXSDwvGv,Improving Language Model Negotiation with Self-Play and In-Context Learning from AI Feedback,4.5,0.5
+lRu0dN7BY6,Social Motion Prediction with Cognitive Hierarchies,4.6,0.4898979485566356
+lM1UnEssuX,Hypothesis Selection with Memory Constraints,6.25,0.4330127018922193
+lJDoPAjkCV,Gold-YOLO: Efficient Object Detector via Gather-and-Distribute Mechanism,5.4,0.4898979485566356
+lD8xaUWw24,An information-theoretic quantification of the content of communication between brain regions,6.5,0.5
+l6pYRbuHpO,Practical Contextual Bandits with Feedback Graphs,5.8,0.3999999999999999
+l6R4Go3noz,Fine-Grained Visual Prompting,6.6,0.4898979485566356
+l61Kp1zBwC,Relative Entropic Optimal Transport: a (Prior-aware) Matching Perspective to (Unbalanced) Classification,5.4,0.4898979485566356
+l2VKZkolT7,Feature Likelihood Divergence: Evaluating the Generalization of Generative Models Using Samples,6.6,0.4898979485566356
+ktYjrgOENR,DDCoT: Duty-Distinct Chain-of-Thought Prompting for Multimodal Reasoning in Language Models,5.6,0.4898979485566356
+kqBUgrkm1c,Easy Learning from Label Proportions,6.0,0.0
+kjMGHTo8Cs,Inverse Dynamics Pretraining Learns Good Representations for Multitask Imitation,6.0,0.0
+kj33zJ9Vue,On permutation symmetries in Bayesian neural network posteriors: a variational perspective,6.666666666666667,0.4714045207910317
+kR21XsZeAr,Subclass-Dominant Label Noise: A Counterexample for the Success of Early Stopping,5.25,0.4330127018922193
+kMueEV8Eyy,Abide by the law and follow the flow: conservation laws for gradient flows,7.2,0.3999999999999999
+kKXJkiniOx,ConDaFormer: Disassembled Transformer with Local Structure Enhancement for 3D Point Cloud Understanding,5.4,0.4898979485566356
+kKFDMtpeDW,On Learning Necessary and Sufficient Causal Graphs,6.0,0.0
+kCCD8d2aEu,Coherent Soft Imitation Learning,6.75,0.4330127018922193
+kBBsj9KRgh,SAME: Uncovering GNN Black Box with Structure-aware Shapley-based Multipiece Explanations,5.75,0.4330127018922193
+jvYXln6Gzn,Auxiliary Losses for Learning Generalizable Concept-based Models,6.0,0.0
+jnCPN1vpSR,D-CIPHER: Discovery of Closed-form Partial Differential Equations,6.333333333333333,0.4714045207910317
+jl5a3t78Uh,Energy-based learning algorithms for analog computing: a comparative study,5.5,0.5
+jkPDRHff3s,Statistical Guarantees for Variational Autoencoders using PAC-Bayesian Theory,6.75,0.4330127018922193
+jhs8F63xI6,Adaptive Online Replanning with Diffusion Models,5.4,0.4898979485566356
+jh3UNSQK0l,Finite-Time Analysis of Single-Timescale Actor-Critic,6.0,0.0
+jgIrJeHHlz,Debiasing Scores and Prompts of 2D Diffusion for View-consistent Text-to-3D Generation,5.75,0.4330127018922193
+jSuhnO9QJv,Spuriosity Rankings: Sorting Data to Measure and Mitigate Biases,6.25,0.4330127018922193
+jRL6ErxMVB,Learning Better with Less: Effective Augmentation for Sample-Efficient Visual Reinforcement Learning,5.8,0.3999999999999999
+jIhX7SpfCz,CluB: Cluster Meets BEV for LiDAR-Based 3D Object Detection,5.4,0.4898979485566356
+j5BuTrEj35,Scaling Data-Constrained Language Models,7.5,0.5
+j5AoleAIru,What You See is What You Read? Improving Text-Image Alignment Evaluation,6.25,0.4330127018922193
+iy4Of0w8ML,"GPEX, A Framework For Interpreting Artificial Neural Networks",5.0,0.0
+iwp3H8uSeK,Distilling Out-of-Distribution Robustness from Vision-Language Foundation Models,5.2,0.3999999999999999
+ihlT8yvQ2I,GNNEvaluator: Evaluating GNN Performance On Unseen Graphs Without Labels,6.5,0.5
+igE3Zbxvws,Maximum Independent Set: Self-Training through Dynamic Programming,6.0,0.5773502691896257
+icWwBKyVMs,Interpretable Prototype-based Graph Information Bottleneck,5.75,0.4330127018922193
+iQlK3VJxV7,Uncertainty-Aware Alignment  Network  for Cross-Domain Video-Text Retrieval,5.4,0.4898979485566356
+iATY9W5Xw7,CAST: Cross-Attention in Space and Time for Video Action Recognition,6.2,0.3999999999999999
+i5sSWKbF3b,Decentralized Matrix Sensing: Statistical Guarantees and Fast Convergence,6.333333333333333,0.4714045207910317
+hyPUZX03Ks,A polar prediction model for learning to represent visual transformations,6.4,0.4898979485566356
+htM8yp2EwX,AMDP: An Adaptive Detection Procedure for False Discovery Rate Control in High-Dimensional Mediation Analysis,6.25,0.4330127018922193
+hh6azymUaE,Privacy-Preserving Logistic Regression Training with A Faster Gradient Variant,2.5,0.5
+hVVp8TXIPs,Hardware Resilience Properties of Text-Guided Image Classifiers,6.0,0.0
+hN4qpvGzWn,Game Solving with Online Fine-Tuning,6.25,0.4330127018922193
+hI6EPhq70A,Face Reconstruction from Facial Templates by Learning Latent Space of a Generator Network,4.8,0.3999999999999999
+hExFOGZTSt,Creating a Public Repository for Joining Private Data,7.0,0.0
+hE5RWzQyvf,Distributionally Robust Linear Quadratic Control,7.0,0.0
+hCdqDkA25J,Optimal Guarantees for Algorithmic Reproducibility and Gradient Complexity in Convex Optimization,7.0,0.0
+h4r00NGkjR,VideoComposer: Compositional Video Synthesis with Motion Controllability,5.5,0.5
+gx20B4ItIw,Emergent Communication for Rules Reasoning,6.2,0.3999999999999999
+gwvwbsnTps,Composable Coresets for Determinant Maximization: Greedy is Almost Optimal,5.75,0.4330127018922193
+gsglrhvQxX,Flow-Based Feature Fusion for Vehicle-Infrastructure Cooperative 3D Object Detection,5.5,0.5
+gpJw8f4tIU,Contrastive Retrospection: honing in on critical steps for rapid learning and generalization in RL,6.0,0.0
+gmmXyAq8TI,Coop: Memory is not a Commodity,6.5,0.5
+gevmGxsTSI,Learning From Biased Soft Labels,5.6,0.4898979485566356
+geLARFEK8O,Combating Representation Learning Disparity with Geometric Harmonization,6.5,0.5
+gdVcFOvxT3,Finding Safe Zones of Markov Decision Processes Policies,5.25,0.4330127018922193
+gbhixjg2dX,Synthetic Combinations: A Causal Inference Framework for Combinatorial Interventions,7.0,0.0
+gbOukzirpK,Object-Centric Slot Diffusion,7.25,0.4330127018922193
+gaktiSjatl,Semi-Implicit Denoising Diffusion Models (SIDDMs),5.4,0.4898979485566356
+gUTVpByfVX,Diffusion-TTA: Test-time Adaptation of Discriminative Models via Generative Feedback,6.4,0.4898979485566356
+gSyjaunurQ,On Representation of Natural Image Patches,3.25,0.4330127018922193
+gO60SSGOMy,Content-based Unrestricted Adversarial Attack,5.75,0.4330127018922193
+gGl0n7Onug,Theoretical and Practical Perspectives on what Influence Functions Do,7.25,0.4330127018922193
+g27BggUT3L,LART: Neural Correspondence Learning with Latent Regularization Transformer for 3D Motion Transfer,5.25,0.4330127018922193
+fze7P9oy6l,Supported Value Regularization for Offline Reinforcement Learning,5.0,0.0
+fxNQJVMwK2,Text-to-Image Diffusion Models are Zero Shot Classifiers,6.25,0.4330127018922193
+ftPoVcm821,Demo2Code: From Summarizing Demonstrations to Synthesizing Code via Extended Chain-of-Thought,6.4,0.4898979485566356
+fsCcGr8YFR,UE4-NeRF:Neural Radiance Field for Real-Time Rendering of Large-Scale Scene,5.0,0.0
+frSfSaRGXY,Meek Separators and Their Applications in Targeted Causal Discovery,6.5,0.5
+fbpTObq6TW,A fast heuristic to optimize time-space tradeoff for large models,6.0,0.0
+fY7dShbtmo,Multi Time Scale World Models,6.5,0.5
+fW5ZUSVTkv,Learning Domain-Aware Detection Head with Prompt Tuning,5.6,0.4898979485566356
+fPAAgjISu0,In Defense of Softmax Parametrization for Calibrated and Consistent Learning to Defer,6.6,0.4898979485566356
+fKwG6grp8o,Dynamics of Finite Width Kernel and Prediction Fluctuations in Mean Field Neural Networks,7.0,0.0
+fKVEMNmWqU,Reduced Policy Optimization for Continuous Control with Hard Constraints,6.25,0.4330127018922193
+fHsBNNDroC,Calibrated Stackelberg Games: Learning Optimal Commitments Against Calibrated Agents,6.666666666666667,0.4714045207910317
+fAdMly4ki5,Diffusion Model is an Effective Planner and Data Synthesizer for Multi-Task Reinforcement Learning,6.4,0.4898979485566356
+f7wFwPJwBe,Learning Re-sampling Methods with Parameter Attribution for Image Super-resolution,5.4,0.4898979485566356
+f56xMRb7Vt,Norm-guided latent space exploration for text-to-image generation,5.5,0.5
+f3JNQd7CHM,The Learnability of In-Context Learning,5.833333333333333,0.3726779962499649
+f39Q3JyoIi,Collaborative Alignment of NLP Models,5.8,0.3999999999999999
+eqyhjLG5Nr,Supply-Side Equilibria in Recommender Systems,5.5,0.5
+en4LGxpd9E,Getting ViT in Shape: Scaling Laws for Compute-Optimal Model Design,6.5,0.5
+eibTaY6qGI,Resilient Multiple Choice Learning: A learned scoring scheme with application to audio scene analysis,6.0,0.0
+eX6xDto3Ed,Flat Seeking Bayesian Neural Networks,5.6,0.4898979485566356
+eWKqr1zcRv,Practical and Asymptotically Exact Conditional Sampling in Diffusion Models,5.25,0.4330127018922193
+eW233GDOpm,Response Length Perception and  Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline,6.0,0.0
+eTp4RetK74,ASPEN: Breaking Operator Barriers for Efficient Parallelization of Deep Neural Networks,6.0,0.0
+eTHawKFT4h,A Rigorous Link between Deep Ensembles and (Variational) Bayesian Methods,7.8,0.3999999999999999
+ePkLqJh5kw,Combating Bilateral Edge Noise for Robust Link Prediction,6.8,0.3999999999999999
+eP6cDDwBNC,TRIAGE: Characterizing and auditing training data for improved regression,6.4,0.4898979485566356
+eKFrXWb0sT,Frequency-Enhanced Data Augmentation for Vision-and-Language Navigation,6.0,0.0
+eJZ5vJEaaa,What Planning Problems Can A Relational Neural Network Solve?,6.25,0.4330127018922193
+eIFZtkshgH,AD-PT: Autonomous Driving Pre-Training with Large-scale Point Cloud Dataset,5.25,0.4330127018922193
+eDDZh8C4W4,How to Select Which Active Learning Strategy is Best Suited for Your Specific Problem and Budget,5.25,0.4330127018922193
+eBXM62SqKY,POP-3D: Open-Vocabulary 3D Occupancy Prediction from Images,5.4,0.4898979485566356
+e7MK5Vq44Q,DynGFN: Towards Bayesian Inference of Gene Regulatory Networks with GFlowNets,6.25,0.4330127018922193
+e2aCgjtjMR,Estimating and Controlling for Equalized Odds via Sensitive Attribute Predictors,7.0,0.0
+e1oe8F2tjV,Multinomial Logistic Regression: Asymptotic Normality on Null Covariates in High-Dimensions,6.75,0.4330127018922193
+e0tt2G8hqf,Aligning Gradient and Hessian for Neural Signed Distance Function,5.6,0.4898979485566356
+dxPcdEeQk9,Few-shot Generation via Recalling  Brain-Inspired Episodic-Semantic Memory,6.4,0.4898979485566356
+du0hvEpgj8,Actively Testing Your Model While It Learns: Realizing Label-Efficient Learning in Practice,5.75,0.4330127018922193
+dqS1GuoG2V,The Memory-Perturbation Equation: Understanding Model's Sensitivity to Data,6.2,0.3999999999999999
+dnEFueMZ43,Efficient Multi-Task Reinforcement Learning via Selective Behavior Sharing,4.5,0.5
+dlDFakG6kJ,Sample Complexity of Forecast Aggregation,7.25,0.4330127018922193
+dYeUvLUxBQ,Causal Discovery in Semi-Stationary Time Series,5.5,0.5
+dX9MjUtP1A,Self-Correcting Bayesian Optimization through Bayesian Active Learning,5.75,0.4330127018922193
+dTj5tH94xv,Does a sparse ReLU network training problem always admit an optimum ?,6.75,0.4330127018922193
+dSRyKIYRnP,Slow and Weak Attractor Computation Embedded in Fast and Strong E-I Balanced Neural Dynamics,7.0,0.0
+dLmDPVv19z,Constrained Policy Optimization with Explicit Behavior Density For Offline Reinforcement Learning,5.5,0.5
+dKeWh6EzBB,SwiFT: Swin 4D fMRI Transformer,6.2,0.3999999999999999
+dHQ2av9NzO,On the Convergence of Black-Box Variational Inference,7.0,0.0
+dHF3Im8Aic,LMC: Large Model Collaboration with Cross-assessment for Training-Free Open-Set Object Recognition,5.75,0.4330127018922193
+dFSeZm6dTC,CP-SLAM: Collaborative Neural Point-based SLAM System,5.833333333333333,0.372677996249965
+dEDdRWunxU,Fed-CO$_{2}$: Cooperation of Online and Offline Models for Severe Data Heterogeneity in Federated Learning,5.5,0.5
+dCAk9VlegR,This Looks Like Those: Illuminating Prototypical Concepts Using Multiple Visualizations,6.25,0.4330127018922193
+d8j3lsBWpV,ZipLM: Inference-Aware Structured Pruning of Language Models,5.6,0.4898979485566356
+d86B6Mdweq,3D Copy-Paste: Physically Plausible Object Insertion for Monocular 3D Detection,5.6,0.4898979485566356
+d6LShzSTOP,Unsupervised Image Denoising with Score Function,5.0,0.0
+d47iuwOt3j,On the Gini-impurity Preservation For Privacy Random Forests,6.2,0.3999999999999999
+d1wjMBYbP1,Zero-Shot Anomaly Detection via Batch Normalization,5.2,0.3999999999999999
+d0IEd3VgBh,On the Role of Randomization in Adversarially Robust Classification,6.75,0.4330127018922193
+czwZnNf60r,Exploring Diverse In-Context Configurations for Image Captioning,5.2,0.3999999999999999
+cwjh8lqmOL,GPT4Tools: Teaching Large Language Model to Use Tools via Self-instruction,5.5,0.5
+cto6jIIbMZ,Demystifying Softmax Gating Function in Gaussian Mixture of Experts,6.8,0.3999999999999999
+cr99foBDPV,Back-Modality: Leveraging Modal Transformation for Data Augmentation,6.2,0.3999999999999999
+cnpkzQZaLU,Context-PIPs: Persistent Independent Particles Demands Spatial Context Features,6.25,0.4330127018922193
+clKbFMt29V,Self-Supervised Visual Acoustic Matching,5.6,0.4898979485566356
+clCELP8zFb,Convergent Bregman Plug-and-Play Image Restoration for Poisson Inverse Problems,6.0,0.0
+chlTA9Cegc,A-NeSI: A Scalable Approximate Method for Probabilistic Neurosymbolic Inference,6.75,0.4330127018922193
+cd5D1DD923,DeepACO: Neural-enhanced Ant Systems for Combinatorial Optimization,5.75,0.4330127018922193
+cay8LnKSro,Empowering Convolutional Neural Nets with MetaSin Activation,6.0,0.0
+caUhYUVsLl,Augmentation-Free Dense Contrastive Knowledge Distillation for Efficient Semantic Segmentation,5.75,0.4330127018922193
+cZS5X3PLOR,Data Minimization at Inference Time,5.8,0.3999999999999999
+cUuXVaMmmv,Discovering Hierarchical Achievements in Reinforcement Learning via Contrastive Learning,6.5,0.5
+cQdc9Dyk4i,GraphMP: Graph Neural Network-based Motion Planning with Efficient Graph Search,7.0,0.0
+cLQCCtVDuW,HIQL: Offline Goal-Conditioned RL with Latent States as Actions,7.0,0.0
+cBS5CU96Jq,Conditional Score Guidance for Text-Driven Image-to-Image Translation,5.2,0.3999999999999999
+cBIPcZKFdw,Strategic Apple Tasting,5.8,0.3999999999999999
+cB0BImqSS9,Monarch Mixer: A Simple Sub-Quadratic GEMM-Based Architecture,8.0,0.0
+c8nIdZ5HJJ,Maximum Average Randomly Sampled: A Scale Free and Non-parametric Algorithm for Stochastic Bandits,6.25,0.4330127018922193
+bzs4uPLXvi,Language Models Don't Always Say What They Think: Unfaithful Explanations in Chain-of-Thought Prompting,6.5,0.5
+bt7pQ7o7zG,Chatting Makes Perfect: Chat-based Image Retrieval,4.5,0.5
+brOMKBEGXP,Self-Chained Image-Language Model for Video Localization and Question Answering,5.5,0.5
+bpmM6SkDUy,EDGI: Equivariant Diffusion for Planning with Embodied Agents,6.25,0.4330127018922193
+bo8q5MRcwy,Learning Universal Policies via Text-Guided Video Generation,6.5,0.5
+bUgqyyNo8j,Model-Based Reparameterization Policy Gradient Methods: Theory and Practical Algorithms,6.5,0.5
+bTL5SNOpfa,Seeing is not Believing: Robust Reinforcement Learning against Spurious Correlation,6.0,0.0
+bOQNd7tWAp,Online Control for Meta-optimization,7.25,0.4330127018922193
+bNXVRJjmOl,Structured Neural Networks for Density Estimation and Causal Inference,5.75,0.4330127018922193
+bNIHdyunFC,Learning Layer-wise Equivariances Automatically using Gradients,6.75,0.4330127018922193
+bISkJSa5Td,Neural Lad: A Neural Latent Dynamics Framework for Times Series Modeling,6.25,0.4330127018922193
+bH4LVNVXUo,Asymmetric Certified Robustness via Feature-Convex Neural Networks,5.75,0.4330127018922193
+bGcdjXrU2w,ATTA: Anomaly-aware Test-Time Adaptation for Out-of-Distribution Detection in Segmentation,5.2,0.3999999999999999
+bETvUctiTR,Differentiable Neuro-Symbolic Reasoning on Large-Scale Knowledge Graphs,6.4,0.4898979485566356
+bA3iR0jQO9,Accelerate Multi-Agent Reinforcement Learning in Zero-Sum Games with Subgame Curriculum Learning,5.0,0.0
+b6XvK2de99,One-Step Diffusion Distillation via Deep Equilibrium Models,5.333333333333333,0.4714045207910317
+b60wLlkBta,On the Robustness of Removal-Based Feature Attributions,6.25,0.4330127018922193
+b5R8mbqo9Q,A Heavy-Tailed Algebra for Probabilistic Programming,7.0,0.0
+b1JPBGJhUi,Stable Nonconvex-Nonconcave Training via Linear Interpolation,6.5,0.5
+avuRopYsCg,Discovering Intrinsic Spatial-Temporal Logic Rules to Explain Human Actions,6.5,0.5
+apjOYp3mOa,LICO: Explainable Models with Language-Image COnsistency,5.5,0.5
+aa8KsqfTPa,MarioGPT: Open-Ended Text2Level Generation through Large Language Models,6.5,0.5
+aZ44Na3l9p,Reproducibility in Multiple Instance Learning: A Case For Algorithmic Unit Tests,6.75,0.4330127018922193
+aMjaEkkXJx,The emergence of clusters in self-attention dynamics,6.75,0.4330127018922193
+aG6xOP9QY7,Optimal Unbiased Randomizers for Regression with Label Differential Privacy,6.75,0.4330127018922193
+aCOKUvqHtD,Polynomial-Time Linear-Swap Regret Minimization in Imperfect-Information Sequential Games,6.25,0.4330127018922193
+a2svOXTVgO,On the Convergence of CART under Sufficient Impurity Decrease Condition,5.8,0.3999999999999999
+ZqSx5vXOgC,Bypass Exponential Time Preprocessing: Fast Neural Network Training via Weight-Data Correlation Preprocessing,6.0,0.0
+ZmSg4f16uo,Optimistic Meta-Gradients,6.5,0.5
+ZejTutd7VY,TrojLLM: A Black-box Trojan Prompt Attack on Large Language Models,5.5,0.5
+ZeRiLBvIps,Local Convergence of Gradient Methods for Min-Max Games: Partial Curvature Generically Suffices,6.25,0.4330127018922193
+ZQMlfNijY5,Normalizing flow neural networks by JKO scheme,7.25,0.4330127018922193
+ZIyAHaLlsn,ResShift: Efficient Diffusion Model for Image Super-resolution by Residual Shifting,5.8,0.3999999999999999
+ZITOHWeAy7,A Graph-Theoretic Framework for Understanding Open-World Semi-Supervised Learning,6.75,0.4330127018922193
+ZGElmTRk3w,On kernel-based statistical learning theory in the mean field limit,5.4,0.4898979485566356
+ZED5wdGous,Human-in-the-Loop Optimization for Deep Stimulus Encoding in Visual Prostheses,5.666666666666667,0.4714045207910317
+ZBB8EFO7ma,Aiming towards the minimizers: fast convergence of SGD for overparametrized problems,5.75,0.4330127018922193
+ZARAiV25CW,Generalized Bayesian Inference for Scientific Simulators via Amortized Cost Estimation,6.5,0.5
+Z2L7F0nekb,Meta-Learning with Neural Bandit Scheduler,6.4,0.4898979485566356
+Z28nPtAVxx,Optimal Extragradient-Based Algorithms for Stochastic Variational Inequalities with Separable Structure,6.0,0.0
+Z1W0u3Cr74,Revisiting Logistic-softmax Likelihood in Bayesian Meta-Learning for Few-Shot Classification,5.75,0.4330127018922193
+Z1Aj59LoZD,Path Regularization: A Convexity and Sparsity Inducing Regularization for Parallel ReLU Networks,6.6,0.4898979485566356
+YsZTDcIQwQ,Diversifying Spatial-Temporal Perception for Video Domain Generalization,5.4,0.4898979485566356
+Yq6GKgN3RC,"Federated Learning with Client Subsampling, Data Heterogeneity, and Unbounded Smoothness: A New Algorithm and Lower Bounds",6.25,0.4330127018922193
+YZGWhs1H7F,GAN You See Me? Enhanced Data Reconstruction Attacks against Split Inference,5.5,0.5
+YZ7ip645Ra,Structured Prediction with Stronger Consistency Guarantees,6.75,0.4330127018922193
+YLOJ4aKAka,Connecting Pre-trained Language Model and Downstream Task via Properties of Representation,6.0,0.0
+YE04aRkeZb,$\textbf{A}^2\textbf{CiD}^2$: Accelerating Asynchronous Communication in Decentralized Deep Learning,4.75,0.4330127018922193
+Y8p3ThNDmK,A Unified Algorithm Framework for Unsupervised Discovery of Skills based on Determinantal Point Process,6.4,0.4898979485566356
+Y3g1PV5R9l,PTQD: Accurate Post-Training Quantization for Diffusion Models,5.4,0.4898979485566356
+Y18r0xWkSh,Posterior Contraction Rates for Matérn Gaussian Processes on Riemannian Manifolds,7.75,0.4330127018922193
+Y17N9B0vXn,Towards Higher Ranks via Adversarial Weight Pruning,6.5,0.5
+XzTM9gVRT4,Minimax Risks and Optimal Procedures for Estimation under Functional Local Differential Privacy,6.5,0.5
+Xxllzjt6T5,ReSync: Riemannian Subgradient-based Robust Rotation Synchronization,6.75,0.4330127018922193
+XvGQ6F3sG8,Self-supervised Graph Neural Networks via Low-Rank Decomposition,6.75,0.4330127018922193
+Xu8aG5Q8M3,LayoutGPT: Compositional Visual Planning and Generation with Large Language Models,5.5,0.5
+XrqqPDAsRE,A Randomized Approach to Tight Privacy Accounting,6.75,0.4330127018922193
+Xq2s5yxzd2,Multi-Prompt Alignment for Multi-Source Unsupervised Domain Adaptation,5.5,0.5
+XmpthbaJql,Res-Tuning: A Flexible and Efficient Tuning Paradigm via Unbinding Tuner from Backbone,5.4,0.4898979485566356
+XfYpIaKDb6,On the Minimax Regret for Online Learning with Feedback Graphs,7.25,0.4330127018922193
+XetXfkYZ6i,Deep Recurrent Optimal Stopping,5.333333333333333,0.4714045207910317
+Xazhn0JoNx,Making Scalable Meta Learning Practical,5.4,0.4898979485566356
+Xasl21tSOf,Provable Training for Graph Contrastive Learning,7.25,0.4330127018922193
+XXPzBhOs4f,Have it your way: Individualized Privacy Assignment for DP-SGD,5.75,0.4330127018922193
+XUu2GloTXb,Implicit Contrastive Representation Learning with Guided Stop-gradient,6.25,0.4330127018922193
+XT9mL5vxX2,Multitask Learning for Face Forgery Detection: A Joint Embedding Approach,4.6,0.4898979485566356
+XRTxIBs2eu,Block-State Transformers,5.8,0.3999999999999999
+XPWEtXzlLy,Mirror Diffusion Models for Constrained and Watermarked Generation,6.25,0.4330127018922193
+XOCbdqxAR2,TD Convergence: An Optimization Perspective,6.75,0.4330127018922193
+XKeSauhUdJ,DiffUTE: Universal Text Editing Diffusion Model,5.8,0.3999999999999999
+XKP3mAsNHd,Incentives in Private Collaborative Machine Learning,6.5,0.5
+XGXL1E8Yyo,DreamWaltz: Make a Scene with Complex 3D Animatable Avatars,4.25,0.4330127018922193
+XF923QPCGw,Learning Regularized Monotone Graphon Mean-Field Games,6.5,0.5
+XEBzQP3e7B,GAIA: Delving into Gradient-based Attribution Abnormality for Out-of-distribution Detection,5.2,0.3999999999999999
+X8dbFcAox2,Self-Weighted Contrastive Learning among Multiple Views for Mitigating Representation Degeneration,6.6,0.4898979485566356
+X6TBBsz9qi,Explain Any Concept: Segment Anything Meets Concept-Based Explanation,5.25,0.4330127018922193
+X6Eapo5paw,Latent SDEs on Homogeneous Spaces,6.75,0.4330127018922193
+X4mmXQ4Nxw,Performance-optimized deep neural networks are evolving into worse models of inferotemporal visual cortex,6.5,0.5
+X3IeHRD0zf,Causal Imitability Under Context-Specific Independence Relations,6.75,0.4330127018922193
+X0CIxqYc4Z,Risk-Averse Model Uncertainty for Distributionally Robust Safe Reinforcement Learning,5.6,0.4898979485566356
+WqiZJGNkjn,MotionGPT: Human Motion as a Foreign Language,5.5,0.5
+Wn82NbmvJy,Accelerating Value Iteration with Anchoring,6.5,0.5
+WmqYhqvz5i,Contextual Bandits and Imitation Learning with Preference-Based Active Queries,6.25,0.4330127018922193
+WjgCRrOgip,Repetition In Repetition Out: Towards Understanding Neural Text Degeneration from the Data Perspective,6.5,0.5
+WjWifKqmcG,Differentiable Registration of Images and LiDAR Point Clouds with VoxelPoint-to-Pixel Matching,5.6,0.4898979485566356
+WfsWy59bX2,Anonymous Learning via Look-Alike Clustering: A Precise Analysis of Model Generalization,6.2,0.3999999999999999
+WaLI8slhLw,DeWave: Discrete Encoding of EEG Waves for EEG to Text Translation,6.5,0.5
+Wa1GGPqjUn,Online learning of long-range dependencies,6.2,0.3999999999999999
+WK8LQzzHwW,Unsupervised Anomaly Detection with Rejection,5.8,0.3999999999999999
+W6U2xSbiE1,Black-box Backdoor Defense via Zero-shot Image Purification,5.2,0.3999999999999999
+W3cDd5xlKZ,Fair Canonical Correlation Analysis,6.75,0.4330127018922193
+VqclD6Nfaj,Autonomous Capability Assessment of Sequential Decision-Making Systems in Stochastic Settings,5.2,0.3999999999999999
+VpGFHmI7e5,"Patch n’ Pack: NaViT, a Vision Transformer for any Aspect Ratio and Resolution",5.75,0.4330127018922193
+VpCjozUOM2,Chanakya: Learning Runtime Decisions for Adaptive Real-Time Perception,5.5,0.5
+Vota6rFhBQ,Fine-Tuning Language Models with Just Forward Passes,7.4,0.4898979485566356
+Vm1zeYqwdc,Diffusion Hyperfeatures: Searching Through Time and Space for Semantic Correspondence,5.2,0.3999999999999999
+Vbm5UCaYeh,Efficient Algorithms for Generalized Linear Bandits with Heavy-tailed Rewards,6.25,0.4330127018922193
+VPrir0p5b6,Continuous-Time Functional Diffusion Processes,6.4,0.4898979485566356
+VNyKBipt91,Federated Learning via Meta-Variational Dropout,5.5,0.5
+VMAgvbBBts,UP-DP: Unsupervised Prompt Learning for Data Pre-Selection with Vision-Language Models,5.2,0.3999999999999999
+VIaw1XHb4G,Interactive Multi-fidelity Learning for Cost-effective Adaptation of Language Model with Sparse Human Supervision,6.25,0.4330127018922193
+VFhN15Vlkj,Neural Polarizer: A Lightweight and Effective Backdoor Defense via Purifying Poisoned Features,6.25,0.4330127018922193
+VEpU9rFaQr,Auditing for Human Expertise,7.0,0.0
+V87gZeSOL4,Nonparametric Identifiability of Causal Representations from Unknown Interventions,6.25,0.4330127018922193
+V5FNSilWiC,Strategic Behavior in Two-sided Matching Markets with Prediction-enhanced Preference-formation,6.333333333333333,0.4714045207910317
+Uzi22WryyX,A Path to Simpler Models Starts With Noise,5.75,0.4330127018922193
+UvBwXdL95b,UP-NeRF: Unconstrained Pose Prior-Free Neural Radiance Field,6.6,0.4898979485566356
+UpN2wfrLec,Language Is Not All You Need: Aligning Perception with Language Models,6.0,0.0
+UgSSOpqvPI,DAMEX: Dataset-aware Mixture-of-Experts for visual understanding of mixture-of-datasets,5.4,0.4898979485566356
+UdByCgCNdr,MoCa: Measuring Human-Language Model Alignment on Causal and Moral Judgment Tasks,6.8,0.3999999999999999
+UYl9IIsjq7,Decompose Novel into Known: Part Concept Learning For 3D Novel Class Discovery,5.4,0.4898979485566356
+UK8mA3DRnb,Simple and Asymmetric Graph Contrastive Learning without Augmentations,6.0,0.0
+Tz2uONpgpy,Long Sequence Hopfield Memory,6.0,0.0
+TwLHB8sKme,Tools for Verifying Neural Models' Training Data,5.25,0.4330127018922193
+TtCPFN5fhO,Optimal Parameter and Neuron Pruning for Out-of-Distribution Detection,5.5,0.5
+Ts0d8PvTeB,Meta-Adapter: An Online Few-shot Learner for Vision-Language Model,5.4,0.4898979485566356
+TjgG4UT62W,Kernel Stein Discrepancy thinning: a theoretical perspective of pathologies and a practical fix with regularization,7.0,0.0
+TjJJmcHw9p,Exact recovery and Bregman hard clustering of node-attributed Stochastic Block Model,6.25,0.4330127018922193
+TfbzX6I14i,Sparse Modular Activation for Efficient Sequence Modeling,5.5,0.5
+TcmjewOAd1,L-CAD: Language-based Colorization with Any-level Descriptions using Diffusion Priors,6.6,0.4898979485566356
+Tb7np0MInj,Fast Trainable Projection for Robust Fine-tuning,5.2,0.3999999999999999
+TXq8PCRSoY,A Variational Perspective on High-Resolution ODEs,6.75,0.4330127018922193
+TXoZiUZywf,Improved Algorithms for Stochastic Linear Bandits Using Tail Bounds for Martingale Mixtures,7.25,0.4330127018922193
+TW99HrZCJU,Beyond Uniform Sampling: Offline Reinforcement Learning with Imbalanced Datasets,6.5,0.5
+TVD3wNVH9A,Bounce: Reliable High-Dimensional Bayesian Optimization for Combinatorial and Mixed Spaces,6.8,0.3999999999999999
+TQlpqmCeMe,"Neural Injective Functions for Multisets, Measures and Graphs via a Finite Witness Theorem",7.333333333333333,0.4714045207910317
+TNLO8KNFFZ,Information Geometry of the Retinal Representation Manifold,5.5,0.5
+TDS3kqRteY,REx: Data-Free Residual Quantization Error Expansion,5.25,0.4330127018922193
+T6iiOqsGOh,Mass-Producing Failures of Multimodal Systems with Language Models,6.5,0.5
+T5h69frFF7,UNSSOR: Unsupervised Neural Speech Separation by Leveraging Over-determined Training Mixtures,6.6,0.4898979485566356
+T3SstRu5fq,PUCA: Patch-Unshuffle and Channel Attention for Enhanced Self-Supervised Image Denoising,6.6,0.4898979485566356
+SxVHyYavHy,DeepSimHO: Stable Pose Estimation for Hand-Object Interaction via Physics Simulation,5.2,0.3999999999999999
+SuvDnzrKCo,Scaling Up Differentially Private LASSO Regularized Logistic Regression via Faster Frank-Wolfe Iterations,5.75,0.4330127018922193
+Srt1hhQgqa,Cappy: Outperforming and Boosting Large Multi-Task LMs with a Small Scorer,6.25,0.4330127018922193
+SjiLtmZETc,Bayesian Risk-Averse Q-Learning with Streaming Observations,6.5,0.5
+Sg3aCpWUQP,Errors-in-variables Fr\'echet Regression with Low-rank Covariate Approximation,5.8,0.3999999999999999
+SfXjt1FtMQ,GmGM: a fast Gaussian graphical model for multi-modal data,5.666666666666667,0.4714045207910317
+Sf3t6Bth4P,Enhancing Sharpness-Aware Optimization Through Variance Suppression,4.5,0.5
+SaII5qMgKH,Learning to Parameterize Visual Attributes for Open-set Fine-grained Retrieval,5.4,0.4898979485566356
+SFfOt1oDsX,Graph Convolutional Kernel Machine versus Graph Convolutional Networks,6.25,0.4330127018922193
+SE73LzWNjr,Nearly Optimal VC-Dimension and Pseudo-Dimension Bounds for Deep Neural Network Derivatives,6.5,0.5
+SAzaC8f3cM,Towards Self-Interpretable Graph-Level Anomaly Detection,5.5,0.5
+SA2KrosYjY,Category-Extensible Out-of-Distribution Detection via Hierarchical Context Descriptions,6.0,0.0
+S5wmbQc1We,The Clock and the Pizza: Two Stories in Mechanistic Explanation of Neural Networks,7.2,0.3999999999999999
+S3Y0VvegGm,The Benefits of Being Distributional: Small-Loss Bounds for Reinforcement Learning,6.75,0.4330127018922193
+S37hOerQLB,Self-Refine: Iterative Refinement with Self-Feedback,6.25,0.4330127018922193
+S2k5dBb91q,Transportability for Bandits with Data from Different Environments,6.0,0.0
+Rvk1wdwz1L,"Similarity, Compression and Local Steps: Three Pillars of Efficient Communications for Distributed Variational Inequalities",6.25,0.4330127018922193
+RuxBLfiEqI,Diversified Outlier Exposure for Out-of-Distribution Detection via Informative Extrapolation,5.5,0.5
+Rs6pzz21U4,A Partially-Supervised Reinforcement Learning Framework for Visual Active Search,5.5,0.5
+RrdBNXBUIF,Cluster-aware Semi-supervised Learning: Relational Knowledge Distillation Provably Learns Clustering,5.666666666666667,0.4714045207910317
+Rp4PA0ez0m,Unsupervised Video Domain Adaptation for Action Recognition: A Disentanglement Perspective,5.2,0.3999999999999999
+RiyH3z7oIF,Posterior Sampling with Delayed Feedback for Reinforcement Learning with Linear Function Approximation,5.285714285714286,0.4517539514526256
+RiSMijlsLT,SimMMDG: A Simple and Effective Framework for Multi-modal Domain Generalization,5.6,0.4898979485566356
+RgNXKIrWyU,Reusing Pretrained Models by Multi-linear Operators for Efficient Training,5.6,0.4898979485566356
+Re2NHYoZ5l,Learning Environment-Aware Affordance for 3D Articulated Object Manipulation under Occlusions,5.6,0.4898979485566356
+RUCFAKNDb2,Promises and Pitfalls of Threshold-based Auto-labeling,6.666666666666667,0.4714045207910317
+RSGNGiB1q4,How to Turn Your Knowledge Graph Embeddings into Generative Models,7.25,0.4330127018922193
+RFgv7cfMUy,On-the-Fly Adapting Code Summarization on Trainable Cost-Effective Language Models,5.5,0.5
+RFE1eI0zNZ,Public Opinion Field Effect Fusion in Representation Learning for Trending Topics Diffusion,5.2,0.3999999999999999
+R6KJN1AUAR,Additive Decoders for Latent Variables Identification and Cartesian-Product Extrapolation,6.8,0.3999999999999999
+QzcZb3fWmW,Emergence of Shape Bias in Convolutional Neural Networks through Activation Sparsity,7.25,0.4330127018922193
+QwvaqV48fB,Beyond Myopia: Learning from Positive and Unlabeled Data through Holistic Predictive Trends,6.8,0.3999999999999999
+Qu6Ln7d9df,Streaming Factor Trajectory Learning for Temporal Tensor Decomposition,6.0,0.0
+QmPf29EHyI,Bifurcations and loss jumps in RNN training,6.5,0.5
+QlbZabgMdK,Goal-conditioned Offline Planning from Curious Exploration,5.75,0.4330127018922193
+QkLpGxUboF,ProPILE: Probing Privacy Leakage in Large Language Models,6.8,0.3999999999999999
+QW5ouyyIgG,CoDA: Collaborative Novel Box Discovery and Cross-modal Alignment for Open-vocabulary 3D Object Detection,5.5,0.5
+QRAS5wSgEy,CADet: Fully Self-Supervised Out-Of-Distribution Detection With Contrastive Learning,5.2,0.3999999999999999
+QNUs3Ramad,Adversarial Self-Training Improves Robustness and Generalization for Gradual Domain Adaptation,5.75,0.4330127018922193
+QLllDwizVd,Where2Explore: Few-shot Affordance Learning for Unseen Novel Categories of Articulated Objects,5.8,0.3999999999999999
+QIBpzaDCAv,Lossy Image Compression with Conditional Diffusion Models,5.4,0.4898979485566356
+QGrkbaan79,RADAR: Robust AI-Text Detection via Adversarial Learning,5.75,0.4330127018922193
+QGQsOZcQ2H,Neural Oscillators are Universal,6.5,0.5
+QG4nJBNEar,CAT-Walk: Inductive Hypergraph Learning via Set Walks,6.75,0.4330127018922193
+QB7ot7p6j7,DiffAttack: Evasion Attacks Against Diffusion-Based Adversarial Purification,5.5,0.5
+Q0ntwxVtcy,Near-optimal learning with average Hölder smoothness,6.666666666666667,0.4714045207910317
+PzYAMXmIT3,Does Visual Pretraining Help End-to-End Reasoning?,5.75,0.4330127018922193
+Pya0kCEpDk,Private estimation algorithms for stochastic block models and mixture models,7.5,0.5
+PxcWJqO3qj,Learning Exponential Families from Truncated Samples,6.25,0.4330127018922193
+PqfPjS9JRX,The Shaped Transformer: Attention Models in the Infinite Depth-and-Width Limit,6.5,0.5
+PpI7XvOXkF,A Spectral Algorithm for List-Decodable Covariance Estimation in Relative Frobenius Norm,7.5,0.5
+PnWakgg1RL,FABind: Fast and Accurate Protein-Ligand Binding,5.6,0.4898979485566356
+Pjky9XG8zP,One Less Reason for Filter Pruning: Gaining Free Adversarial Robustness with Structured Grouped Kernel Pruning,6.5,0.5
+PjBEUTVzoe,Implicit Bias of (Stochastic) Gradient Descent for Rank-1 Linear Neural Network,5.75,0.4330127018922193
+Pj6X6GqNy8,Learning Fine-grained View-Invariant Representations from Unpaired Ego-Exo Videos via Temporal Alignment,5.5,0.5
+Pe9WxkN8Ff,Learning Transformer Programs,6.75,0.4330127018922193
+PcNpL9Q39p,Responsible AI (RAI) Games and Ensembles,5.5,0.5
+PcKHQFsvel,On the Statistical Consistency of Risk-Sensitive Bayesian Decision-Making,6.75,0.4330127018922193
+Pbpk9jUzAi,"Revisiting Adversarial Training for ImageNet: Architectures, Training and Generalization across Threat Models",5.4,0.4898979485566356
+PYEgC56flW,"Feature Learning for Interpretable, Performant Decision Trees",5.25,0.4330127018922193
+PXsqbAjpQd,SHOT: Suppressing the Hessian along the Optimization Trajectory for Gradient-Based Meta-Learning,5.6,0.4898979485566356
+PTvxck0QDE,Simplicity Bias in 1-Hidden Layer Neural Networks,5.75,0.4330127018922193
+PITeSdYQkv,User-Level Differential Privacy With Few Examples Per User,7.5,0.5
+P5vzRpoOj2,Temporal Robustness against Data poisoning,5.25,0.4330127018922193
+P3Z59Okb5I,EvoFed: Leveraging Evolutionary Strategies for Communication-Efficient Federated Learning,6.0,0.0
+Ozc8XVzwd4,VCC: Scaling Transformers to 128K Tokens or More by Prioritizing Important Tokens,5.8,0.3999999999999999
+OtU6VvXJue,Learning to Augment Distributions for Out-of-distribution Detection,6.75,0.4330127018922193
+OjlZqQzw51,Percentile Criterion Optimization in Offline Reinforcement Learning,5.4,0.4898979485566356
+Oj7Mrb4009,Eliminating Catastrophic Overfitting Via Abnormal Adversarial Examples Regularization,4.0,0.0
+OiivS2mqQf,Augmentation-Aware Self-Supervision for Data-Efficient GAN Training,5.0,0.0
+OeLInnFKUK,Practical Differentially Private Hyperparameter Tuning with Subsampling,6.25,0.4330127018922193
+OZEfMD7axv,SyncDiffusion: Coherent Montage via Synchronized Joint Diffusions,6.5,0.5
+OZ7aImD4uQ,Scale Alone Does not Improve Mechanistic Interpretability in Vision Models,7.0,0.0
+OWELckerm6,Laughing Hyena Distillery: Extracting Compact Recurrences From Convolutions,6.75,0.4330127018922193
+OJ0c6um1An,LLMScore: Unveiling the Power of Large Language Models in Text-to-Image Synthesis Evaluation,6.4,0.4898979485566356
+O1lYncfVOO,S-CLIP: Semi-supervised Vision-Language Learning using Few Specialist Captions,5.8,0.3999999999999999
+NyQwBttTnG,Information Design in Multi-Agent Reinforcement Learning,5.6,0.4898979485566356
+Ny3GcHLyzj,Efficient Policy Adaptation with Contrastive Prompt Ensemble for Embodied Agents,5.666666666666667,0.4714045207910317
+NuoIThPPag,Label-Only Model Inversion Attacks via Knowledge Transfer,5.5,0.5
+Nr1XSeDzpn,On the Convergence to a Global Solution of Shuffling-Type Gradient Algorithms,5.75,0.4330127018922193
+Nh5dp6Uuvx,Improving neural network representations using human similarity judgments,6.5,0.5
+NfpYgGZC3B,Bucks for Buckets (B4B): Active Defenses Against Stealing Encoders,5.25,0.4330127018922193
+Ncb0MvVqRV,Minimum Description Length and Generalization Guarantees for Representation Learning,6.75,0.4330127018922193
+NbkjMn7X8H,Robust Nonparametric Regression under Poisoning Attack,5.5,0.5
+NaYAsbv2jF,Geometric Neural Diffusion Processes,6.5,0.5
+NWrN6cMG2x,Moment Matching Denoising Gibbs Sampling,5.4,0.4898979485566356
+NWEbeI2HNQ,Prefix-Tree Decoding for Predicting Mass Spectra from Molecules,7.5,0.5
+NTSbj2otOA,First- and Second-Order Bounds for Adversarial Linear Contextual Bandits,5.5,0.5
+NRnm5xO8Hz,Geometric Analysis of Matrix Sensing over Graphs,5.75,0.4330127018922193
+NNooZoQpP4,To Stay or Not to Stay in the Pre-train Basin: Insights on Ensembling in Transfer Learning,5.75,0.4330127018922193
+NGiq8qCQNk,Zero-sum Polymatrix Markov Games: Equilibrium Collapse and Efficient Computation of Nash Equilibria,6.75,0.4330127018922193
+NG4DaApavi,Monte Carlo Tree Search with Boltzmann Exploration,5.5,0.5
+N6FhEMnxCU,Label Robust and Differentially Private Linear Regression: Computational and Statistical Efficiency,5.5,0.5
+N4JkStI1fe,Neural Multi-Objective Combinatorial Optimization with Diversity Enhancement,5.5,0.5
+Mxhb2lCOKL,Mitigating Test-Time Bias for Fair Image Retrieval,6.0,0.0
+MmCtXvW6GO,Trade-off Between Efficiency and Consistency for Removal-based Explanations,5.6,0.4898979485566356
+MljeRycu9s,Diverse Conventions for Human-AI Collaboration,6.75,0.4330127018922193
+MWxsYPVmLS,Explainable and Efficient Randomized Voting Rules,6.25,0.4330127018922193
+MWp3SwoHmH,MCUFormer: Deploying Vision Tranformers on Microcontrollers with Limited Memory,5.4,0.4898979485566356
+MUwr2YVJfN,HEDNet: A Hierarchical Encoder-Decoder Network for 3D Object Detection in Point Clouds,6.6,0.4898979485566356
+MJbDy2155j,Bridging the Domain Gap: Self-Supervised 3D Scene Understanding with Foundation Models,5.6,0.4898979485566356
+MIYBTjCVjR,Sequential Preference Ranking for Efficient Reinforcement Learning from Human Feedback,6.5,0.5
+MH7E7AME1r,Debiasing Conditional Stochastic Optimization,6.0,0.0
+MGPST5I9DO,Learning Efficient Surrogate Dynamic Models with Graph Spline Networks,6.75,0.4330127018922193
+MFWgLCWgUB,Random Cuts are Optimal for Explainable k-Medians,8.0,0.0
+MCkUS1P3Sh,Nash Regret Guarantees for Linear Bandits,6.2,0.3999999999999999
+MCj7DLkYqS,Adversarial Attacks on Online Learning to Rank with Click Feedback,5.25,0.4330127018922193
+MCVfX7HgPO,Testing the General Deductive Reasoning Capacity of Large Language Models Using OOD Examples,6.5,0.5
+M8CYKLHoEN,Fast Rank-1 Lattice Targeted Sampling for Black-box Optimization,5.5,0.5
+M6OmjAZ4CX,Language Models can Solve Computer Tasks,6.0,0.0
+M1dTz6QmuM,The RL Perceptron: Generalisation Dynamics of Policy Learning in High Dimensions,6.0,0.5773502691896257
+LziniAXEI9,Transformers learn to implement preconditioned gradient descent for in-context learning,6.75,0.4330127018922193
+LswqtKU9op,Prompt-augmented Temporal Point Process for Streaming Event Sequence,6.25,0.4330127018922193
+Lr2swAfwff,Bridging RL Theory and Practice with the Effective Horizon,7.25,0.4330127018922193
+LnySNEJAQt,Flow Factorized Representation Learning,5.8,0.3999999999999999
+Lmxo0RVNx2,Individualized Dosing Dynamics via Neural Eigen Decomposition,6.25,0.4330127018922193
+LloZFVwWvj,Non-autoregressive Machine Translation with Probabilistic Context-free Grammar,5.6,0.4898979485566356
+LjWJLkSpjh,When Can We Track Significant Preference Shifts in Dueling Bandits?,6.25,0.4330127018922193
+LdvVd0bNyO,ODE-based Recurrent Model-free Reinforcement Learning for POMDPs,5.75,0.4330127018922193
+LZ4WgwmrUJ,High-dimensional Contextual Bandit Problem without Sparsity,5.6,0.4898979485566356
+LVHEcVgEGm,Diffusion Models and Semi-Supervised Learners Benefit Mutually with Few Labels,6.6,0.4898979485566356
+LV83JEihHu,Exploring Question Decomposition for Zero-Shot VQA,5.6,0.4898979485566356
+LUT4b9gOtS,Learning Visual Prior via Generative Pre-Training,6.25,0.4330127018922193
+LTdfYIvbHc,Feature-Learning Networks Are Consistent Across Widths At Realistic Scales,5.8,0.3999999999999999
+LTbIUkN95h,Sample Efficient Reinforcement Learning in Mixed Systems through Augmented Samples and Its Applications to Queueing Networks,7.0,0.0
+LSYQB4CwD3,Three Towers: Flexible Contrastive Learning with Pretrained Image Models,5.5,0.5
+LJ4CYEagg3,Spatially-Guided Temporal Attention (SGuTA) and Shifted-Cube Attention (SCubA) for Video Frame Interpolation,4.4,0.4898979485566356
+LGqIAn2OaZ,Dynamic Tensor Decomposition via Neural Diffusion-Reaction Processes,6.0,0.0
+LCwToX315b,Hardness of Low Rank Approximation of Entrywise Transformed Matrix Products,6.25,0.4330127018922193
+L9ZTvJ5jVx,Latent Field Discovery in Interacting Dynamical Systems with Neural Fields,6.0,0.0
+L7Whl9pXd0,Efficient Batched Algorithm for Contextual Linear Bandits with Large Action Space via Soft Elimination,6.25,0.4330127018922193
+L0QwnevT0F,Truly Scale-Equivariant Deep Nets with Fourier Layers,6.5,0.5
+Kvaa3DhvlZ,Learning Descriptive Image Captioning via Semipermeable Maximum Likelihood Estimation,5.5,0.5
+KoFYzuwjCA,Disentangling Voice and Content with Self-Supervision for Speaker Recognition,6.4,0.4898979485566356
+Kig2YJVYfq,Transferable Adversarial Robustness for Categorical Data via Universal Robust Embeddings,5.6,0.4898979485566356
+Ki6DqBXss4,Online Label Shift: Optimal Dynamic Regret meets Practical Algorithms,7.5,0.5
+KgqucdSwIe,VoxDet: Voxel Learning for Novel Instance Detection,6.8,0.3999999999999999
+KbqQMoqfLQ,Blockwise Parallel Transformers for Large Context Models,6.75,0.4330127018922193
+KXbAgvLi2l,Faster Relative Entropy Coding with Greedy Rejection Coding,5.5,0.5
+KTR33hMnMX,Aligning Optimization Trajectories with Diffusion Models for Constrained Design Generation,5.75,0.4330127018922193
+KMeFZopsqP,First Order Methods with Markovian Noise: from Acceleration to Variational Inequalities,6.5,0.5
+KAlSIL4tXU,PromptIR: Prompting for All-in-One Image Restoration,4.8,0.3999999999999999
+KAWaeKOEkx,DropCompute: simple and more robust  distributed synchronous training via compute variance reduction,6.0,0.0
+K9M7XNS9BX,Corruption-Robust Offline Reinforcement Learning with General Function Approximation,6.25,0.4330127018922193
+K7u3RkoBP9,Neural Modulation for Flash Memory: An Unsupervised Learning Framework for Improved Reliability,6.6,0.4898979485566356
+K3JgUvDSYX,Fast Optimal Locally Private Mean Estimation via Random Projections,6.5,0.5
+K30wTdIIYc,Controlling Text-to-Image Diffusion by Orthogonal Finetuning,6.2,0.3999999999999999
+JzQ7QClAdF,Opening the Vocabulary of Egocentric Actions,4.8,0.3999999999999999
+JwNXeBdkeo,Provably (More) Sample-Efficient Offline RL with Options,6.5,0.5
+JvOZ4IIjwP,"Train Hard, Fight Easy: Robust Meta Reinforcement Learning",6.0,0.0
+JtF0ugNMv2,T2T: From Distribution Learning in Training to Gradient Search in Testing for Combinatorial Optimization,6.25,0.4330127018922193
+JkmvrheMe7,On Single-Index Models beyond Gaussian Data,5.8,0.3999999999999999
+JhQP33aMx2,Module-wise Adaptive Distillation for Multimodality Foundation Models,5.4,0.4898979485566356
+JdhyIa0azI,Neural Functional Transformers,6.0,0.0
+JOkgEY9os2,MMD-Fuse: Learning and Combining Kernels for Two-Sample Testing Without Data Splitting,7.25,0.4330127018922193
+JIKM2vS8XU,DatasetDM: Synthesizing Data with Perception Annotations Using Diffusion Models,4.6,0.4898979485566356
+JCN9YsZiwB,Deep Non-line-of-sight Imaging from Under-scanning Measurements,5.0,0.0
+JCCi58IUsh,Grounded Decoding: Guiding Text Generation with Grounded Models for Embodied Agents,5.8,0.3999999999999999
+J3taqrzyyA,"Stability-penalty-adaptive follow-the-regularized-leader: Sparsity, game-dependency, and best-of-both-worlds",6.4,0.4898979485566356
+J1gBijopla,Quantifying & Modeling Multimodal Interactions: An Information Decomposition Framework,6.4,0.4898979485566356
+IwnINorSZ5,Conformal Meta-learners for Predictive Inference of Individual Treatment Effects,6.75,0.4330127018922193
+Itorzn4Kwf,Accelerating Exploration with Unlabeled Prior Data,5.75,0.4330127018922193
+IrjXmIKFyx,Model-free Posterior Sampling via Learning Rate Randomization,5.666666666666667,0.4714045207910317
+IjZa2fQ8tL,StableFDG: Style and Attention Based Learning for Federated Domain Generalization,5.5,0.5
+IhxD94i5ra,Calibration by Distribution Matching: Trainable Kernel Calibration Metrics,5.75,0.4330127018922193
+IgDa5Ynm9l,Efficient Model-Free Exploration in Low-Rank MDPs,6.25,0.4330127018922193
+IfRHdBy3wb,GOAt: Explaining Graph Neural Networks via Graph Output Attribution,5.4,0.4898979485566356
+IXWaWPkGke,Optimization or Architecture: How to Hack Kalman Filtering,5.75,0.4330127018922193
+IQRc3FrYOG,Mutual-Information Regularized Multi-Agent Policy Iteration,5.75,0.4330127018922193
+IOuuLBrGJR,HQA-Attack: Toward High Quality Black-Box Hard-Label Adversarial Attack on Text,5.6,0.4898979485566356
+IKjOMA8olL,Towards Label Position Bias in Graph Neural Networks,5.25,0.4330127018922193
+IKQOS8rqwr,QuACK: Accelerating Gradient-Based Quantum Optimization with Koopman Operator Learning,6.5,0.5
+IHR83ufYPy,Leveraging sparse and shared feature activations for disentangled representation learning,7.25,0.4330127018922193
+I9GNrInbdf,Formulating Discrete Probability Flow Through Optimal Transport,7.25,0.4330127018922193
+I5SM5y57k2,On Robust Streaming for Learning with Experts: Algorithms and Lower Bounds,5.75,0.4330127018922193
+I50HbChk3U,Provably Bounding Neural Network Preimages,7.0,0.0
+I3k2NHt1zu,Randomized and Deterministic Maximin-share Approximations for Fractionally Subadditive Valuations,6.75,0.4330127018922193
+HvhagNdf5z,Synthetic-to-Real Pose Estimation with Geometric Reconstruction,5.0,0.0
+HvWfTrjwWa,Generalized Balancing Weights via Deep Neural Networks,4.0,0.0
+HlIAoCHDWW,Learning in the Presence of Low-dimensional Structure: A Spiked Random Matrix Perspective,5.75,0.4330127018922193
+HYGnmSLBCf,Alignment with human representations supports robust few-shot learning,6.5,0.5
+HPuSIXJaa9,Direct Preference Optimization: Your Language Model is Secretly a Reward Model,7.75,0.4330127018922193
+HFQFAyNucq,ResMem: Learn what you can and memorize the rest,5.75,0.4330127018922193
+GxL6PrmEUw,Distributional Learning of Variational AutoEncoder: Application to Synthetic Data Generation,6.0,0.0
+Gtse4R6iS4,Robustifying Generalizable Implicit Shape Networks with a Tunable Non-Parametric Model,5.333333333333333,0.4714045207910317
+GtYlxtwO74,Robust covariance estimation with missing values and cell-wise contamination,6.5,0.5
+GsCTjmYe5v,REFINE: A Fine-Grained Medication Recommendation System Using Deep Learning and Personalized Drug Interaction Modeling,5.75,0.4330127018922193
+GrFsx4mBWF,Demographic Parity Constrained Minimax Optimal Regression under Linear Model,6.75,0.4330127018922193
+GrElRvXnEj,Score-based Generative Modeling through Stochastic Evolution Equations in Hilbert Spaces,7.0,0.0
+Gij638d76O,Neural Latent Geometry Search: Product Manifold Inference via Gromov-Hausdorff-Informed Bayesian Optimization,6.2,0.3999999999999999
+GcEIvidYSw,Cal-QL: Calibrated Offline RL Pre-Training for Efficient Online Fine-Tuning,5.5,0.5
+GYnbubCXhE,Conditional Matrix Flows for Gaussian Graphical Models,5.75,0.4330127018922193
+GYjV1M5s0D,FineMoGen: Fine-Grained Spatio-Temporal Motion Generation and Editing,5.5,0.5
+GItLpB1vhK,Estimating Koopman operators with sketching to provably learn large scale dynamical systems,6.5,0.5
+GI4Pp01prW,Machine learning detects terminal singularities,6.5,0.5
+G7Y145tm2F,CSLP-AE: A Contrastive Split-Latent Permutation Autoencoder Framework for Zero-Shot Electroencephalography Signal Conversion,5.75,0.4330127018922193
+G6yq9v8O0U,Factorized Tensor Networks for Multi-Task and Multi-Domain Learning,6.0,0.0
+G560qr59Gi,Implicit Bias of Gradient Descent for Two-layer ReLU and Leaky ReLU Networks on Nearly-orthogonal Data,6.5,0.5
+FskZtRvMJI,RiskQ: Risk-sensitive Multi-Agent Reinforcement Learning Value Factorization,5.75,0.4330127018922193
+FmZVRe0gn8,Robust Multi-Agent Reinforcement Learning via Adversarial Regularization: Theoretical Foundation and Stable Algorithms,5.6,0.4898979485566356
+Fkckkr3ya8,Faith and Fate: Limits of Transformers on Compositionality,6.75,0.4330127018922193
+FdtdjQpAwJ,Constraint-Conditioned Policy Optimization for Versatile Safe Reinforcement Learning,7.0,0.0
+FdsS51iif3,PaintSeg: Painting Pixels for Training-free Segmentation,6.2,0.3999999999999999
+Fdfyga5i0A,Mnemosyne: Learning to Train Transformers with Transformers,5.666666666666667,0.4714045207910317
+FYqqvQdXhZ,"StyleGAN knows Normal, Depth, Albedo, and More",5.25,0.4330127018922193
+FV4ngfUlY0,Non-stationary Experimental Design under Linear Trends,5.666666666666667,0.4714045207910317
+FT2q2B4cKZ,Markovian Sliced Wasserstein Distances: Beyond Independent Projections,6.5,0.5
+FOFJmR1oxt,BCDiff: Bidirectional Consistent Diffusion for Instantaneous Trajectory Prediction,6.2,0.3999999999999999
+FNn4zibGvw,Hyperbolic VAE via Latent Gaussian Distributions,5.5,0.5
+FM8thAWqiO,Core-sets for Fair and Diverse Data Summarization,6.25,0.4330127018922193
+FM81CI68Iz,FedL2P: Federated Learning to Personalize,5.4,0.4898979485566356
+FLFasCFJNo,Meta-learning families of plasticity rules in recurrent spiking networks using simulation-based inference,6.5,0.5
+FIv84qGPFT,Pseudo-Likelihood Inference,6.0,0.0
+FCwfZj1bQl,Anytime-Competitive Reinforcement Learning with Policy Prior,5.75,0.4330127018922193
+FAZ3i0hvm0,A Privacy-Friendly Approach to Data Valuation,6.0,0.5773502691896257
+F5FVsfCxt8,Decision Tree for Locally Private Estimation with Public Data,5.75,0.4330127018922193
+F5DYsAc7Rt,GRAND-SLAMIN’ Interpretable Additive Modeling with Structural Constraints,5.8,0.3999999999999999
+Eysb8t3MJ5,GlucoSynth: Generating Differentially-Private Synthetic Glucose Traces,5.2,0.3999999999999999
+Eu4Kkefq7p,OpenShape: Scaling Up 3D Shape Representation Towards Open-World Understanding,6.2,0.3999999999999999
+ErAP8kF4tG,Finite-Time Logarithmic Bayes Regret Upper Bounds,5.6,0.4898979485566356
+EoDpq18R30,Reconciling Competing Sampling Strategies of Network Embedding,7.333333333333333,0.4714045207910317
+EmxpDiPgRu,Honesty Is the Best Policy: Defining and Mitigating AI Deception,7.75,0.4330127018922193
+EldbUlZtbd,Does Localization Inform Editing? Surprising Differences in Causality-Based Localization vs. Knowledge Editing in Language Models,7.5,0.5
+EjMLpTgvKH,Timewarp: Transferable Acceleration of Molecular Dynamics by Learning Time-Coarsened Dynamics,7.5,0.5
+EcReRm7q9p,Optimal Treatment Allocation for Efficient Policy Evaluation in Sequential Decision Making,6.25,0.4330127018922193
+EcN3l6Xmnx,Learning Time-Invariant Representations for Individual Neurons from Population Dynamics,5.25,0.4330127018922193
+EY7Hpj8Ok6,Context-lumpable stochastic bandits,6.25,0.4330127018922193
+ETk6cfS3vk,SlotDiffusion: Object-Centric Generative Modeling with Diffusion Models,6.5,0.5
+ESEM1lNoeS,AttrSeg: Open-Vocabulary Semantic Segmentation via Attribute Decomposition-Aggregation,5.75,0.4330127018922193
+EF56cv8B3b,LayoutPrompter: Awaken the Design Ability of Large Language Models,6.6,0.4898979485566356
+EE1Uiu3Ryb,Bandit Task Assignment with Unknown Processing Time,6.5,0.5
+Dx99y3okbL,Distribution Learnability and Robustness,6.333333333333333,0.4714045207910317
+Ds7Vd83HlC,Faster Query Times for Fully Dynamic $k$-Center Clustering with Outliers,6.4,0.4898979485566356
+DqfdhM64LI,Decentralized Randomly Distributed Multi-agent Multi-armed Bandit with Heterogeneous Rewards,6.8,0.3999999999999999
+DmakwvCJ7l,Data-Centric Learning from Unlabeled Graphs with Diffusion Model,5.75,0.4330127018922193
+DkeeXVdQyu,How to Scale Your EMA,6.75,0.4330127018922193
+DjX2Nr15kY,NAR-Former V2: Rethinking Transformer for Universal Neural Network Representation Learning,5.25,0.4330127018922193
+DdViWdxCTs,Uncovering Prototypical Knowledge for Weakly Open-Vocabulary Semantic Segmentation,5.25,0.4330127018922193
+DVlawv2rSI,RoboCLIP: One Demonstration is Enough to Learn Robot Policies,5.75,0.4330127018922193
+DVjyq5eCAD,Chasing Fairness Under Distribution Shift: A Model Weight Perturbation Approach,6.2,0.3999999999999999
+DKHEkP7Idx,Optimal Convergence Rate for Exact Policy Mirror Descent in Discounted Markov Decision Processes,5.75,0.4330127018922193
+DEiNSfh1k7,DreamSim: Learning New Dimensions of Human Visual Similarity using Synthetic Data,7.5,0.5
+DDkl9vaJyE,Brant: Foundation Model for Intracranial Neural Signal,6.5,0.5
+DAKAkMhjSR,A Smooth Binary Mechanism for Efficient Private Continual Observation,6.5,0.5
+CzAFnfwbGd,Coneheads: Hierarchy Aware Attention,6.25,0.4330127018922193
+CyuhEwvSof,Brain development dictates energy constraints on neural architecture search: cross-disciplinary insights on optimization strategies,2.333333333333333,0.4714045207910317
+Cupr2yTFSx,Online POMDP Planning with Anytime Deterministic Guarantees,5.8,0.3999999999999999
+CrpL8mGa0Q,On the Relationship Between Relevance and Conflict in Online Social Link Recommendations,5.5,0.5
+CpoS56pYnU,HiNeRV: Video Compression with Hierarchical Encoding-based Neural Representation,5.0,0.0
+CniUitfEY3,Reusable Slotwise Mechanisms,6.25,0.4330127018922193
+Cc2fjBBlBD,Spuriosity Didn’t Kill the Classifier: Using Invariant Predictions to Harness Spurious Features,6.5,0.5
+CbsJ53LdKc,In-Context Impersonation Reveals Large Language Models' Strengths and Biases,6.5,0.5
+CSbGXyCswu,Fine-Grained Human Feedback Gives Better Rewards for Language Model Training,6.75,0.4330127018922193
+CJWQGDwa6u,Differentiable Random Partition Models,6.5,0.5
+CGj72TyGJy,Automatic Grouping for Efficient Cooperative Multi-Agent Reinforcement Learning,6.75,0.4330127018922193
+CFQBcz7k8n,Adversarially Robust Learning with Uncertain Perturbation Sets,6.4,0.4898979485566356
+C8pvL8Qbfa,Conservative Offline Policy Adaptation in Multi-Agent Games,6.25,0.4330127018922193
+C6IIwFHWkF,Dynamic Sparsity Is Channel-Level Sparsity Learner,6.5,0.5
+ByDy2mlkig,On the explainable properties of 1-Lipschitz Neural Networks: An Optimal Transport Perspective,5.6,0.4898979485566356
+BsZNWXD3a1,Optimizing Prompts for Text-to-Image Generation,6.25,0.4330127018922193
+BqZ70BEtuW,SANFlow: Semantic-Aware Normalizing Flow for Anomaly Detection,5.25,0.4330127018922193
+BfQJrIiOZC,Zero-shot causal learning,7.0,0.0
+BW6nZf7TnK,Mip-Grid: Anti-aliased Grid Representations for Neural Radiance Fields,5.75,0.4330127018922193
+BRqlkTDvvm,BQ-NCO: Bisimulation Quotienting for Efficient Neural Combinatorial Optimization,5.75,0.4330127018922193
+BRpi8YAfac,Passive learning of active causal strategies in agents and language models,7.25,0.4330127018922193
+BI031mw7iS,Flow: Per-instance Personalized Federated Learning,5.5,0.5
+BHZsJ2sTkG,An Improved Relaxation for Oracle-Efficient Adversarial Contextual Bandits,6.5,0.5
+BHXsb69bSx,ToolkenGPT: Augmenting Frozen Language Models with Massive Tools via Tool Embeddings,7.4,0.4898979485566356
+BHHrX3CRE1,Regularity as Intrinsic Reward for Free Play,5.75,0.4330127018922193
+BGvkwZEGt7,Large Language Models Are Latent Variable Models: Explaining and Finding Good Demonstrations for In-Context Learning,5.2,0.3999999999999999
+BC1IJdsuYB,Selective Amnesia: A Continual Learning Approach to Forgetting in Deep Generative Models,6.25,0.4330127018922193
+BACQLWQW8u,Subspace Identification for Multi-Source Domain Adaptation,7.25,0.4330127018922193
+BA7NHAzbpO,Sampling from Structured Log-Concave Distributions via a Soft-Threshold Dikin Walk,7.0,0.0
+B94G0MXWQX,CamoPatch: An Evolutionary Strategy for Generating Camoflauged Adversarial Patches,5.2,0.3999999999999999
+B5LpWAaBVA,Online Nonstochastic Model-Free Reinforcement Learning,5.666666666666667,0.4714045207910317
+AygwZzdCM0,Partial Counterfactual Identification of Continuous Outcomes with a Curvature Sensitivity Model,6.5,0.5
+Ay3WvSrtpO,Model-Free Reinforcement Learning with the Decision-Estimation Coefficient,6.0,0.0
+AwzbQVuDBk,ProteinNPT: Improving Protein Property Prediction and Design with Non-Parametric Transformers,5.5,0.5
+AuXd54odxm,Extraction and Recovery of Spatio-Temporal Structure in Latent Dynamics Alignment with Diffusion Models,6.5,0.5
+AnFUgNC3Yc,Resetting the Optimizer in Deep RL: An Empirical Study,5.75,0.4330127018922193
+AmwgBjXqc3,Causal Context Connects Counterfactual Fairness to Robust Prediction and Group Fairness,6.2,0.3999999999999999
+AfC8PVQZ9z,Multi-task Representation Learning for Pure Exploration in Bilinear Bandits,6.0,0.0
+AesN5bYnJr,No-Regret Online Prediction with Strategic Experts,6.0,0.0
+A9mHph8GJk,NAS-X: Neural Adaptive Smoothing via Twisting,5.75,0.4330127018922193
+A6PRwRjI8V,Generalized Semi-Supervised Learning via Self-Supervised Feature Adaptation,5.4,0.4898979485566356
+A6JDQDv7Nt,Keep Various Trajectories: Promoting Exploration of Ensemble Policies in Continuous Control,5.5,0.5
+A6EquH0enk,Effective Bayesian Heteroscedastic Regression with Deep Neural Networks,6.5,0.5
+A5yMv7XPuA,Combinatorial Group Testing with Selfish Agents,6.5,0.5
+A383wMho4h,Oracle Complexity of Single-Loop Switching Subgradient Methods for Non-Smooth Weakly Convex Functional Constrained Optimization,6.333333333333333,0.4714045207910317
+9qlJGjO7bA,Efficient Adversarial Attacks on Online Multi-agent Reinforcement Learning,5.75,0.4330127018922193
+9mJXDcr17V,"Beyond Invariance: Test-Time Label-Shift Adaptation for Addressing ""Spurious"" Correlations",6.0,0.0
+9lygTqLdWn,Multi-body SE(3) Equivariance for Unsupervised Rigid Segmentation and Motion Estimation,5.666666666666667,0.4714045207910317
+9kFQEJSyCM,RangePerception: Taming LiDAR Range View for Efficient and Accurate 3D Object Detection,6.0,0.0
+9ieV1hnuva,Hypervolume Maximization: A Geometric View of Pareto Set Learning,6.666666666666667,0.4714045207910317
+9iafshF7s3,Rewrite Caption Semantics: Bridging Semantic Gaps for Language-Supervised Semantic Segmentation,5.75,0.4330127018922193
+9dp35y5C0p,Reinforcement-Enhanced Autoregressive Feature Transformation: Gradient-steered Search in Continuous Space for Postfix Expressions,6.75,0.4330127018922193
+9cQzO3rXgR,Diffusion Representation for Asymmetric Kernels via Magnetic Transform,6.666666666666667,0.4714045207910317
+9VqMaSjf7U,Brain Diffusion for Visual Exploration: Cortical Discovery using Large Scale Generative Models,6.75,0.4330127018922193
+9OqezkNxnX,"Incentives in Federated Learning: Equilibria, Dynamics, and Mechanisms for Welfare Maximization",5.25,0.4330127018922193
+9Ihu0VBOTq,Provable Advantage of Curriculum Learning on Parity Targets with Mixed Inputs,6.0,0.0
+9D0fELXbrg,Scale-teaching: Robust Multi-scale Training for Time Series Classification with Noisy Labels,4.75,0.4330127018922193
+9B9J8X23LK,Accelerating Motion Planning via Optimal Transport,6.75,0.4330127018922193
+992vogTP1L,Generalization bounds for neural ordinary differential equations and deep residual networks,6.5,0.5
+966yOmwk6d,Towards Data-Algorithm Dependent Generalization: a Case Study on Overparameterized Linear Regression,6.5,0.5
+94rKFkcm56,Distance-Restricted Folklore Weisfeiler-Leman GNNs with Provable Cycle Counting Power,6.2,0.3999999999999999
+917crxqJdA,Distribution-Free Statistical Dispersion Control for Societal Applications,6.75,0.4330127018922193
+8rDbUoYc0p,Constant Approximation for Individual Preference Stable Clustering,7.0,0.0
+8jg8z3ASiw,Closing the Computational-Statistical Gap in Best Arm Identification for Combinatorial Semi-bandits,6.25,0.4330127018922193
+8hKCNVqrlf,A Riemannian Exponential Augmented Lagrangian Method for Computing the Projection Robust Wasserstein Distance,5.2,0.3999999999999999
+8aDG51pxFc,"No Change, No Gain: Empowering Graph Neural Networks with Expected Model Change Maximization for Active Learning",7.0,0.0
+8Xn3D9OtqI,Mitigating the Effect of Incidental Correlations on Part-based Learning,6.0,0.0
+8XRMbNAP6Z,Near-Optimal $k$-Clustering in the Sliding Window Model,7.0,0.0
+8QGukmdAbh,New Bounds for Hyperparameter Tuning of Regression Problems Across Instances,6.75,0.4330127018922193
+8OTPepXzeh,DPOK: Reinforcement Learning for Fine-tuning Text-to-Image Diffusion Models,5.2,0.3999999999999999
+8NAxGDdf7H,Few-Shot Class-Incremental Learning via Training-Free Prototype Calibration,5.0,0.0
+8JsbdJjRvY,3D Indoor Instance Segmentation in an Open-World,5.2,0.3999999999999999
+8JCZe7QrPy,Systematic Visual Reasoning through Object-Centric Relational Abstraction,6.25,0.4330127018922193
+8HzOyg1ngp,Efficient Subgame Refinement for Extensive-form Games,6.0,0.0
+8F3Lutda7R,Exploiting Connections between Lipschitz Structures for Certifiably Robust Deep Equilibrium Models,6.25,0.4330127018922193
+8BPzLxF9p5,Label-efficient Segmentation via Affinity Propagation,4.8,0.3999999999999999
+86dXbqT5Ua,Geometry-Informed Neural Operator for Large-Scale 3D PDEs,4.8,0.3999999999999999
+86ADcKOHAw,Nearest Neighbour with Bandit Feedback,6.4,0.4898979485566356
+7vqlzODS28,HyTrel: Hypergraph-enhanced  Tabular Data Representation Learning,6.4,0.4898979485566356
+7qfkImn0dL,ExPT: Synthetic Pretraining for Few-Shot Experimental Design,6.25,0.4330127018922193
+7nXaoclHed,A Sublinear-Time Spectral Clustering Oracle with Improved Preprocessing Time,6.333333333333333,0.4714045207910317
+7f6vH3mmhr,Multi-Agent Learning with Heterogeneous Linear Contextual Bandits,5.8,0.3999999999999999
+7eW6NzSE4g,Information Maximizing Curriculum: A Curriculum-Based Approach for Learning Versatile Skills,6.0,0.0
+7cnMLZvTy9,Certification of Distributional Individual Fairness,6.333333333333333,0.4714045207910317
+7WTA298wts,Masked Image Residual Learning for Scaling Deeper Vision Transformers,5.4,0.4898979485566356
+7LSEkvEGCM,Representation Equivalent Neural Operators: a Framework for Alias-free Operator Learning,6.2,0.3999999999999999
+7FitZnnnu8,Learning Directed Graphical Models with Optimal Transport,5.25,0.4330127018922193
+7ETbK9lQd7,Exact Optimality of Communication-Privacy-Utility Tradeoffs in Distributed Mean Estimation,6.6,0.4898979485566356
+7DZAVpOoAK,Defending against Data-Free Model Extraction by  Distributionally Robust Defensive Training,5.25,0.4330127018922193
+7962B4nXX7,Learning Energy-based Model via Dual-MCMC Teaching,5.75,0.4330127018922193
+77Nq1KjmLl,Fragment-based Pretraining and Finetuning on Molecular Graphs,5.6,0.4898979485566356
+75Mxzfoeq7,No-Regret Learning in Dynamic Competition with Reference Effects Under Logit Demand,6.25,0.4330127018922193
+73XPopmbXH,Smoothing the Landscape Boosts the Signal for SGD: Optimal Sample Complexity for Learning Single Index Models,7.5,0.5
+6vnwhzRinw,Efficient Uncertainty Quantification and Reduction for Over-Parameterized Neural Networks,6.25,0.4330127018922193
+6jNQ1AY1Uf,Synthetic Experience Replay,6.75,0.4330127018922193
+6gWpJ0IExE,When is Agnostic Reinforcement Learning Statistically Tractable?,6.5,0.5
+6fXzz8cvTA,DNDesign: Denoising is All You Need for Protein Inverse Folding,4.25,0.4330127018922193
+6f320HfMeS,Conformalized matrix completion,5.5,0.5
+6ePsuwXUwf,An Efficient End-to-End Training Approach for Zero-Shot Human-AI Coordination,6.75,0.4330127018922193
+6e86TccKyQ,Balancing Risk and Reward: A Batched-Bandit Strategy for Automated Phased Release,6.0,0.0
+6XPPfZkhKi,HAP: Structure-Aware Masked Image Modeling for Human-Centric Perception,5.5,0.5
+6Qx7G1xrAk,ComSL: A Composite Speech-Language Model for End-to-End Speech-to-Text Translation,6.0,0.0
+6JJq5TW9Mc,Learning World Models with Identifiable Factorization,6.333333333333333,0.4714045207910317
+6H8Md75kAw,Certified Minimax Unlearning with Generalization Rates and Deletion Capacity,6.2,0.3999999999999999
+6EaLIw3W7c,LinkerNet: Fragment Poses and Linker Co-Design with 3D Equivariant Diffusion,6.25,0.4330127018922193
+6AAbWSF6Qg,Causal Fairness for Outcome Control,6.75,0.4330127018922193
+69dAz94zPv,Logarithmic-Regret Quantum Learning Algorithms for Zero-Sum Games,6.25,0.4330127018922193
+5uIL1E8h1E,Residual Scheduling: A New Reinforcement Learning Approach to Solving Job Shop Scheduling Problem,5.25,0.4330127018922193
+5t5u8PQa2T,StreamNet: Memory-Efficient Streaming Tiny Deep Learning Inference on the Microcontroller,6.0,0.0
+5sV53leJCv,Module-wise Training of Neural Networks via the Minimizing Movement Scheme,5.5,0.5
+5gz7npbQ6Z,A Cross-Moment Approach for Causal Effect Estimation,5.5,0.5
+5XshcizH9w,Understanding Contrastive Learning via Distributionally Robust Optimization,5.75,0.4330127018922193
+5VQFAvUHcd,Replicable Clustering,6.4,0.4898979485566356
+5UwnKSgY6u,Evaluating the Robustness of Interpretability Methods through Explanation Invariance and Equivariance,5.4,0.4898979485566356
+5UOYGfobhC,Uni3DETR: Unified 3D Detection Transformer,5.6,0.4898979485566356
+5R9bZlpZKj,Smoothed Analysis of Sequential Probability Assignment,6.4,0.4898979485566356
+5JcKKRX2iH,GeoTMI: Predicting Quantum Chemical Property with Easy-to-Obtain Geometry via Positional Denoising,5.75,0.4330127018922193
+5Gw9YkJkFF,PAC Learning Linear Thresholds from Label Proportions,7.25,0.4330127018922193
+5Fr8Nwi5KF,Diffusion Model for Graph Inverse Problems: Towards Effective Source Localization on Complex Networks,5.5,0.5
+5BqDSw8r5j,Adaptive Normalization for Non-stationary Time Series Forecasting: A Temporal Slice Perspective,5.75,0.4330127018922193
+58HwnnEdtF,Reward-Directed Conditional Diffusion: Provable Distribution Estimation and Reward Improvement,6.0,0.0
+50I7q86igD,Deep Evidence Regression for Weibull targets,3.333333333333333,0.4714045207910317
+4yXnnCK3r9,On Proper Learnability between Average- and Worst-case Robustness,6.75,0.4330127018922193
+4iTAUsyisM,Data-Dependent Bounds for Online Portfolio Selection Without Lipschitzness and Smoothness,6.6,0.4898979485566356
+4hturzLcKX,AlpacaFarm: A Simulation Framework for Methods that Learn from Human Feedback,7.75,0.4330127018922193
+4e0NJbkkd8,Importance Weighted Actor-Critic for Optimal Conservative Offline Reinforcement Learning,5.75,0.4330127018922193
+4SoTUaTK8N,Reversible and irreversible bracket-based dynamics for deep graph neural networks,5.75,0.4330127018922193
+4L2OlXhiTM,FIRAL: An Active Learning Algorithm for Multinomial Logistic Regression,6.4,0.4898979485566356
+4KZhZJSPYU,When Does Confidence-Based Cascade Deferral Suffice?,6.8,0.3999999999999999
+4KV2xLeqPN,"On the Variance, Admissibility, and Stability of Empirical Risk Minimization",6.6,0.4898979485566356
+4JB42GBxGs,Neural approximation of Wasserstein distance via a universal architecture for symmetric and factorwise group invariant functions,5.5,0.5
+4AQ4Fnemox,On the Exploitability of Instruction Tuning,6.5,0.5
+492Hfmgejy,Lightweight Vision Transformer with Bidirectional Interaction,6.25,0.4330127018922193
+40L3viVWQN,The Pick-to-Learn Algorithm: Empowering Compression for Tight Generalization Bounds and Improved Post-training Performance,6.333333333333333,0.4714045207910317
+3xSwxlB0fd,Uncoupled and Convergent Learning in Two-Player Zero-Sum Markov Games with Bandit Feedback,6.2,0.3999999999999999
+3xRaWBD2YB,Polynomial Width is Sufficient for Set Representation with High-dimensional Features,5.75,0.4330127018922193
+3s6aE1LeiR,From One to Zero: Causal Zero-Shot Neural Architecture Search by Intrinsic One-Shot Interventional Information,2.75,0.4330127018922193
+3qHlPqzjM1,Projection Regret: Reducing Background Bias for Novelty Detection via Diffusion Models,5.0,0.0
+3ofe0lpwQP,DisDiff: Unsupervised Disentanglement of Diffusion Probabilistic Models,5.0,0.0
+3o4jU8fWVj,EquiformerV2: Improved Equivariant Transformer for Scaling to Higher-Degree Representations,5.25,0.4330127018922193
+3jAsfo8x8k,PERFOGRAPH: A Numerical Aware Program Graph Representation for Performance Optimization and Program Analysis,6.5,0.5
+3b9sqxCW1x,A Data-Free Approach to Mitigate Catastrophic Forgetting in Federated Class Incremental Learning for Vision Tasks,5.5,0.5
+3S9Oiu6gMf,Learning bounded-degree polytrees with samples,6.25,0.4330127018922193
+3NWWgB2SuF,Undirected Probabilistic Model for Tensor Decomposition,6.25,0.4330127018922193
+3Lx8vMNJZ1,Borda Regret Minimization for Generalized Linear Dueling Bandits,6.5,0.5
+3HlULdiKFM,CoVR: Learning Composed Video Retrieval from Web Video Captions,5.0,0.0
+3H9QH1v6U9,DFRD: Data-Free Robustness Distillation for Heterogeneous Federated Learning,5.4,0.4898979485566356
+3FJaFElIVN,"GLIME: General, Stable and Local LIME Explanation",7.0,0.0
+3Cj67k38st,HotBEV: Hardware-oriented Transformer-based Multi-View 3D Detector for BEV Perception,5.25,0.4330127018922193
+35dOU92OJM,Idempotent Learned Image Compression with Right-Inverse,5.5,0.5
+2lWh1G1W1I,Density of States Prediction of Crystalline Materials via Prompt-guided Multi-Modal Transformer,6.4,0.4898979485566356
+2jUKhUrBxP,Memory-Efficient Fine-Tuning of Compressed Large Language Models via sub-4-bit Integer Quantization,5.0,0.0
+2izFpGERjU,A Combinatorial Algorithm for Approximating the Optimal Transport in the Parallel and MPC Settings,6.0,0.0
+2ePf1sBgLU,Learning Invariant Representations with a Nonparametric Nadaraya-Watson Head,5.0,0.0
+2ccH4zjKVs,Robust Second-Order Nonconvex Optimization and Its Application to Low Rank Matrix Sensing,5.75,0.4330127018922193
+2YtdxqvdjX,Implicit Convolutional Kernels for Steerable CNNs,6.25,0.4330127018922193
+2SScUiWUbn,On the Connection between Pre-training Data Diversity and Fine-tuning Robustness,6.0,0.0
+2OcNWFHFpk,Group Robust Classification Without Any Group Information,5.75,0.4330127018922193
+2NncD8AaFK,CoLLAT: On Adding Fine-grained Audio Understanding to Language Models using Token-Level Locked-Language Tuning,6.25,0.4330127018922193
+2NUFe4TZMS,Gaussian Membership Inference Privacy,4.8,0.3999999999999999
+2Ibp83esmb,Constructing Non-isotropic Gaussian Diffusion Model Using Isotropic Gaussian Diffusion Model for Image Editing,5.0,0.5773502691896257
+2D7ou48q0E,Navigating Data Heterogeneity in Federated Learning: A Semi-Supervised Federated Object Detection,5.4,0.4898979485566356
+2Cmdh5z6ph,Discriminative Calibration: Check Bayesian Computation from Simulations and Flexible Classifier,6.75,0.4330127018922193
+29WbraPk8U,Sharpness-Aware Minimization Leads to Low-Rank Features,5.75,0.4330127018922193
+28RTu9MOT6,Improving Graph Matching with Positional Reconstruction Encoder-Decoder Network,6.2,0.3999999999999999
+26qqUHi9XF,General Munchausen Reinforcement Learning with Tsallis Kullback-Leibler Divergence,6.25,0.4330127018922193
+25HiFHPcXg,CAPro: Webly Supervised Learning with Cross-modality Aligned Prototypes,5.5,0.5
+1vyAG6j9PE,Unexpected Improvements to Expected Improvement for Bayesian Optimization,7.25,0.4330127018922193
+1vvsIJtnnr,Boosting with Tempered Exponential Measures,6.166666666666667,0.3726779962499649
+1tviRBNxI9,Topological Obstructions and How to Avoid Them,5.5,0.5
+1qFnxhdbxg,Energy Discrepancies: A Score-Independent Loss for Energy-Based Models,6.6,0.4898979485566356
+1h2TAUEfc4,Exact Verification of ReLU Neural Control Barrier Functions,6.0,0.0
+1g0A9kE8Id,Learning Unseen Modality Interaction,5.5,0.5
+1bTG4sJ7tN,A Theoretical Analysis of Optimistic Proximal Policy Optimization in Linear Markov Decision Processes,6.5,0.5
+1YEF6TA8Di,Langevin Quasi-Monte Carlo,6.75,0.4330127018922193
+1JlAV2paGu,Blurred-Dilated Method for Adversarial Attacks,5.4,0.4898979485566356
+1DmP6ySKYq,HeadSculpt: Crafting 3D Head Avatars with Text,6.25,0.4330127018922193
+1CpVHL10fh,Should I Stop or Should I Go: Early Stopping with Heterogeneous Populations,6.666666666666667,0.4714045207910317
+17Zkztjlgt,Deciphering Spatio-Temporal Graph Forecasting: A Causal Lens and Treatment,5.75,0.4330127018922193
+0rEJx5QAxt,Convex-Concave Zero-Sum Markov Stackelberg Games,5.5,0.5
+0e4eiXoUn5,SAMoSSA:  Multivariate Singular Spectrum Analysis with Stochastic Autoregressive Noise,6.5,0.5
+0DpKUzl1Se,Adaptive Uncertainty Estimation via High-Dimensional Testing on Latent Representations,6.0,0.0
+0BfQT652sC,"Stochastic Multi-armed Bandits: Optimal Trade-off among Optimality, Consistency, and Tail Risk",7.0,0.0
+09bZyE9tfp,Online Ad Procurement in Non-stationary Autobidding Worlds,6.5,0.5
+02Uc0G2Cym,Robustness Guarantees for Adversarially Trained Neural Networks,6.25,0.4330127018922193
+00EKYYu3fD,Complexity Matters: Rethinking the Latent Space for Generative Modeling,6.5,0.5
