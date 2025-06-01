@@ -76,6 +76,7 @@ class PaperFetcherWithRatingStats:
         df.to_csv(csv_path, index=False, encoding="utf-8")
         print(f"✅ Average rating stores at {csv_path}")
         return df
-
-fetcher = PaperFetcherWithRatingStats("NeurIPS", "2023")
-df = fetcher.process_papers()
+    
+# Examples 
+# fetcher = PaperFetcherWithRatingStats("NeurIPS", "2023")
+# df = fetcher.process_papers()
