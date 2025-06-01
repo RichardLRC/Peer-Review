@@ -37,15 +37,15 @@ def download_from_labeled_file(csv_path):
         paper_ids = group["id"].tolist()
         save_dir = os.path.join(root_dir, label)
 
-        print(f"\n⬇️ Downloading: {os.path.basename(csv_path)} - {label} ({len(paper_ids)} papers)")
-        for paper_id in tqdm(paper_ids, desc=f"📄 {label}"):
+        print(f"\n Downloading: {os.path.basename(csv_path)} - {label} ({len(paper_ids)} papers)")
+        for paper_id in tqdm(paper_ids, desc=f"{label}"):
             result = download_pdf(paper_id, save_dir)
             if result == "success":
-                tqdm.write(f"✅ Success: {paper_id}")
+                tqdm.write(f"Success: {paper_id}")
             elif result == "skipped":
-                tqdm.write(f"⏩ Skipped: {paper_id}")
+                tqdm.write(f"Skipped: {paper_id}")
             else:
-                tqdm.write(f"⚠️ Failed: {paper_id} ({result})")
+                tqdm.write(f"Failed: {paper_id} ({result})")
                 with open(failure_log_path, "a") as log_f:
                     log_f.write(f"{paper_id},{label},{result}\n")
 
@@ -54,12 +54,12 @@ def batch_download(file_list):
         if os.path.exists(csv_file):
             download_from_labeled_file(csv_file)
         else:
-            print(f"❌ File not found: {csv_file}")
+            print(f"File not found: {csv_file}")
 
 # === Labeled CSV file list ===
 file_list = [
-    # "../Data/ICLR/2025/papers/ICLR2025_papers_avg_rating_consistent_labeled.csv",
-    # "../Data/ICLR/2024/papers/ICLR2024_papers_avg_rating_consistent_labeled.csv",
+    "../Data/ICLR/2025/papers/ICLR2025_papers_avg_rating_consistent_labeled.csv",
+    "../Data/ICLR/2024/papers/ICLR2024_papers_avg_rating_consistent_labeled.csv",
     "../Data/NeurIPS/2023/papers/NeurIPS2023_papers_avg_rating_consistent_labeled.csv",
     "../Data/NeurIPS/2024/papers/NeurIPS2024_papers_avg_rating_consistent_labeled.csv"
 ]

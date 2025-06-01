@@ -9,7 +9,7 @@ OPENREVIEW_PASSWORD = "Your_Password"
 
 # Initialize OpenReview client
 def init_client():
-    print("🔐 Initializing OpenReview client...")
+    print("Initializing OpenReview client...")
     client = openreview.api.OpenReviewClient(
         baseurl="https://api2.openreview.net",
         username=OPENREVIEW_USERNAME,
@@ -21,14 +21,14 @@ def init_client():
 def fetch_reviews_and_save(client, df, label, save_dir):
     all_reviews = []
 
-    for _, row in tqdm(df.iterrows(), total=len(df), desc=f"💬 Fetching {label} reviews"):
+    for _, row in tqdm(df.iterrows(), total=len(df), desc=f"Fetching {label} reviews"):
         paper_id = row["id"]
         title = row["title"]
         try:
             paper_notes = client.get_all_notes(forum=paper_id)
             all_replies = [note.to_json() for note in paper_notes]
         except Exception as e:
-            print(f"❌ Failed to fetch: {paper_id} - {e}")
+            print(f"Failed to fetch: {paper_id} - {e}")
             continue
 
         all_reviews.append({
@@ -41,11 +41,11 @@ def fetch_reviews_and_save(client, df, label, save_dir):
     out_path = os.path.join(save_dir, f"{label}_papers_reviews.json")
     with open(out_path, "w", encoding="utf-8") as f:
         json.dump(all_reviews, f, indent=2, ensure_ascii=False)
-    print(f"✅ Saved to: {out_path}")
+    print(f"Saved to: {out_path}")
 
 # Main process for a CSV file
 def process_csv(client, csv_path):
-    print(f"\n📄 Processing file: {csv_path}")
+    print(f"\n Processing file: {csv_path}")
     df = pd.read_csv(csv_path)
     save_dir = os.path.dirname(csv_path)
 

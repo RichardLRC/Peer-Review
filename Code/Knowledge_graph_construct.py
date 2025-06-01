@@ -149,7 +149,7 @@ def main():
                 output_csv = os.path.join(output_base, conf, year, category, "graph_metrics_clean.csv")
                 save_metrics_to_csv(graphs, output_csv)
 
-    print("\n✅ All graph metrics extraction completed!")
+    print("\n All graph metrics extraction completed!")
 
 if __name__ == "__main__":
     main()

@@ -45,7 +45,7 @@ def extract_consistent_papers(file_path, label_percent=0.025, borderline_window=
     label_counts = df_labeled['label'].value_counts().to_dict()
     ordered_labels = ['borderline', 'bad', 'good']
     label_str = ", ".join([f"{label}: {label_counts.get(label, 0)}" for label in ordered_labels])
-    print(f"✅ {dataset_name:<35} (std ≤ {std_threshold:<4}): {label_str}")
+    print(f"{dataset_name:<35} (std ≤ {std_threshold:<4}): {label_str}")
     return output_path, label_counts
 
 # === Batch processing ===
@@ -61,4 +61,4 @@ for file_path in file_list:
     if os.path.exists(file_path):
         results.append(extract_consistent_papers(file_path))
     else:
-        print(f"❌ File not found: {file_path}")
+        print(f"File not found: {file_path}")

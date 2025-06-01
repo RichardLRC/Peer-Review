@@ -31,7 +31,7 @@ class ReviewProcessor:
         for conf, years in self.venue_years.items():
             for year in years:
                 self.process_one(conf, year)
-        print("\n🎉 All real reviews have been processed successfully.")
+        print("\n All real reviews have been processed successfully.")
 
     def process_one(self, conf, year):
         """Process reviews for a specific conference and year"""
@@ -44,20 +44,20 @@ class ReviewProcessor:
             os.makedirs(output_folder, exist_ok=True)
 
             if not os.path.exists(input_path):
-                print(f"⚠️ File not found, skipping: {input_path}")
+                print(f"File not found, skipping: {input_path}")
                 continue
 
-            print(f"\n📄 Processing: {input_path}")
+            print(f"\n Processing: {input_path}")
             try:
                 with open(input_path, "r", encoding="utf-8") as f:
                     paper_data = json.load(f)
             except json.JSONDecodeError:
-                print(f"❌ Failed to parse JSON: {input_path}")
+                print(f"Failed to parse JSON: {input_path}")
                 continue
 
             formatted_reviews = []
 
-            for paper in tqdm(paper_data, desc=f"📝 {conf}{year} - {label}"):
+            for paper in tqdm(paper_data, desc=f"{conf}{year} - {label}"):
                 paper_id = paper.get("paper_id", "unknown")
                 title = paper.get("title", "Untitled")
                 reviews = []
@@ -83,7 +83,7 @@ class ReviewProcessor:
                             }
                             reviews.append(review_data)
                         except Exception as e:
-                            print(f"⚠️ Failed to parse review {review_id}: {e}")
+                            print(f"Failed to parse review {review_id}: {e}")
 
                 if reviews:
                     formatted_reviews.append({
@@ -96,7 +96,7 @@ class ReviewProcessor:
             with open(output_path, "w", encoding="utf-8") as f:
                 json.dump(formatted_reviews, f, indent=2, ensure_ascii=False)
 
-            print(f"✅ Saved to: {output_path}")
+            print(f"Saved to: {output_path}")
 
 
 # ✅ Entry point

@@ -59,7 +59,7 @@ class PaperFetcherWithRatingStats:
         submissions = self.fetch_submissions()
         papers_data = []
 
-        for submission in tqdm(submissions, desc="🔍 Extracting Score"):
+        for submission in tqdm(submissions, desc="Extracting Score"):
             paper_id = submission.id
             title = submission.content.get("title", {}).get("value", "Unknown Title")
             avg_rating, std_rating = self.extract_rating_stats(paper_id)
@@ -74,7 +74,7 @@ class PaperFetcherWithRatingStats:
         df = pd.DataFrame(papers_data)
         csv_path = os.path.join(self.paper_dir, f"{self.conference_name}{self.year}_papers_avg_rating.csv")
         df.to_csv(csv_path, index=False, encoding="utf-8")
-        print(f"✅ Average rating stores at {csv_path}")
+        print(f"Average rating stores at {csv_path}")
         return df
     
 # Examples 

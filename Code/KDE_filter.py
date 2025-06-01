@@ -42,9 +42,9 @@ def detect_and_save_valley_filtered(df, title, file_name, n_valleys=2, bandwidth
         df_filtered = df[df["std_rating"] <= threshold].copy()
         save_path = os.path.join(SAVE_DIR, file_name)
         df_filtered.to_csv(save_path, index=False)
-        print(f"✅ {title}: {len(df_filtered)} papers saved to {save_path} (threshold = {threshold:.3f})")
+        print(f"{title}: {len(df_filtered)} papers saved to {save_path} (threshold = {threshold:.3f})")
     else:
-        print(f"⚠️ {title}: Not enough valleys detected.")
+        print(f"{title}: Not enough valleys detected.")
 
     return valleys
 
@@ -61,7 +61,7 @@ valleys_neurips_2023 = detect_and_save_valley_filtered(df_neurips_2023, "NeurIPS
 valleys_neurips_2024 = detect_and_save_valley_filtered(df_neurips_2024, "NeurIPS2024", "NeurIPS2024_filtered.csv")
 
 # Print thresholds
-print("📌 std_thresholds by 2nd KDE valley:")
+print("std_thresholds by 2nd KDE valley:")
 print(f"ICLR2025: {valleys_iclr_2025[1] if len(valleys_iclr_2025) >= 2 else 'N/A'}")
 print(f"ICLR2024: {valleys_iclr_2024[1] if len(valleys_iclr_2024) >= 2 else 'N/A'}")
 print(f"NeurIPS2023: {valleys_neurips_2023[1] if len(valleys_neurips_2023) >= 2 else 'N/A'}")

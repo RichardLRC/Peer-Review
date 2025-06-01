@@ -83,9 +83,9 @@ def process_reviews(paper_id, section_embeddings, reviews, review_source):
 def main():
     for conf, years in conferences_years.items():
         for year in years:
-            print(f"\n🚀 Processing {conf} {year}...")
+            print(f"\n Processing {conf} {year}...")
             for category in categories:
-                print(f"📂 Category: {category}")
+                print(f" Category: {category}")
 
                 # Define paths
                 section_map_dir = os.path.join(ROOT_DIR, conf, year, "md_section_paper", category)
@@ -146,4 +146,4 @@ def main():
 
 if __name__ == "__main__":
     main()
-    print("\n✅ All similarity analysis completed!")
+    print("\n All similarity analysis completed!")
