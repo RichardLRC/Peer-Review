@@ -7,7 +7,8 @@ This project provides a complete pipeline for analyzing and comparing peer revie
   pip install -r requirements.txt
   ```
 
-- The `Code/` directory contains all scripts used for data collection, filtering, and analysis. The full pipeline for preparing consistent and labeled paper–review pairs includes:
+## Code
+The `Code/` directory contains all scripts used for data collection, filtering, and analysis. The full pipeline for preparing consistent and labeled paper–review pairs includes:
 
   1. **Paper fetching and rating extraction** (`Paper_fetcher.py`)  
      Retrieves all submissions and corresponding review ratings from OpenReview for a given conference and year.
@@ -33,3 +34,12 @@ This project provides a complete pipeline for analyzing and comparing peer revie
      - Builds a directed graph for each review segment using PL-Marker predictions (entities + relations).  
      - Computes structural metrics (node count, edge count, average degree, label entropy) on each graph.  
      - Aligns real vs. LLM question nodes by filtering to match counts, then saves all graph metrics to CSV under `../Data/Knowledge_Graph/<Conference>/<Year>/<Category>/graph_metrics_clean.csv`.
+
+## Data
+
+All processed data, including real human reviews, LLM-generated reviews, data used for semantic similarity analysis, and knowledge graph construction, are available via the following link:
+
+🔗 [Download Data (Google Drive)](https://drive.google.com/file/d/1QXxo7uEyx9nO5zugbvsAzgFb6dp7dY9I/view?usp=drive_link)
+
+  
+
