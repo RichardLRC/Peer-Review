@@ -1,11 +1,10 @@
-#%%
 import os
 import json
 import re
 import time
 from google import genai
 from tqdm import tqdm
-#%%
+
 assistant_instructions_iclr = """
     You are a professional academic paper reviewer. Evaluate papers based on the grading rubric provided.
     Return your response in JSON format with the following structure:
@@ -115,27 +114,27 @@ assistant_instructions_neurips = """
     }
     """
 
-#%%
 
-# 反斜线修复器：只替换非法 \X → \\X，保留合法的 \n \t \u...
+
+
+# Fix illegal escape characters in generated content
 def fix_illegal_escapes(text):
-    # 替换非法 \ 转义（不破坏合法的）
     return re.sub(r'(?<!\\)\\(?![nrt"\\/bfu])', r'\\\\', text)
 
 
-GEMINI_API_KEY="AIzaSyAyNZvU8EL3HvQVAMFE62ZeV1ChfJ6kyp8"
-# 初始化 OpenAI 客户端
+GEMINI_API_KEY="Your_API_Key"
 client = genai.Client(api_key=GEMINI_API_KEY)
 
-#%%
-# 读取 Markdown 文件文本
+
+# Read markdown file content
 def extract_text_from_mmd(mmd_path):
     with open(mmd_path, "r", encoding="utf-8") as f:
         content = f.read()
     content = re.sub(r"(##\s*References\b[\s\S]*?)(\n##\s+[^\n]+)", r"\2", content)
     return content.strip()
 
-# GPT 调用：生成单条评审
+
+# Generate a single review using Gemini
 def generate_single_review(conf, paper_text, max_retries=2):
     prompt = assistant_instructions_iclr if conf == "ICLR" else assistant_instructions_neurips
     full_prompt = f"{prompt.strip()}\n\nHere is the research paper for review:\n\n{paper_text}"
@@ -146,13 +145,11 @@ def generate_single_review(conf, paper_text, max_retries=2):
                 contents=full_prompt,
             )
             content = response.text.strip()
-            # 如果 Gemini 包裹在 ```json ``` 代码块中，提取 JSON 内容
             match = re.search(r"```json\s*(\{.*?\})\s*```", content, re.DOTALL)
             if match:
                 content = match.group(1)
 
-            # 调试日志输出
-            with open("/root/Peer-Review/gemini_debug_log.txt", "a", encoding="utf-8") as f:
+            with open("../gemini_debug_log.txt", "a", encoding="utf-8") as f:
                 f.write("\n\n===== GEMINI OUTPUT START =====\n")
                 f.write(content)
                 f.write("\n===== GEMINI OUTPUT END =====\n")
@@ -161,15 +158,15 @@ def generate_single_review(conf, paper_text, max_retries=2):
             return review_json.get("review", review_json)
 
         except Exception as e:
-            print(f"⚠️ 第 {attempt+1} 次 Gemini 生成失败：{e}")
+            print(f"Attempt {attempt + 1} failed with error: {e}")
             time.sleep(5)
 
-    print("❌ 所有 Gemini 尝试均失败")
+    print("All Gemini attempts failed.")
     return None
 
 # 单个会议年份处理流程
 def process_one(conf, year):
-    root_dir = "/root/Peer-Review/Data"
+    root_dir = "../Data"
     labels = ["good", "borderline", "bad"]
 
     for label in labels:
@@ -179,7 +176,7 @@ def process_one(conf, year):
 
 
         if not os.path.exists(real_review_file):
-            print(f"❌ 跳过：缺少真实评审文件 {real_review_file}")
+            print(f"Skipped: Missing real review file {real_review_file}")
             continue
 
         os.makedirs(review_output_folder, exist_ok=True)
@@ -208,7 +205,7 @@ def process_one(conf, year):
             num_reviews = paper_review_counts.get(paper_id, 1)
             title = paper_titles.get(paper_id, "Unknown Title")
 
-            print(f"📄 正在生成 {paper_id}（共 {num_reviews} 个 GPT 评审）")
+            print(f"Generating reviews for {paper_id} ({num_reviews} total)")
 
             gpt_reviews = []
             max_total_attempts = num_reviews * 3
@@ -220,7 +217,7 @@ def process_one(conf, year):
                 if review:
                     gpt_reviews.append(review)
                 else:
-                    print(f"⚠️ 第 {attempts} 次尝试失败（目标 {num_reviews}，当前成功 {len(gpt_reviews)}）")
+                    print(f"Attempt {attempts} failed (target {num_reviews}, success {len(gpt_reviews)})")
 
             if len(gpt_reviews) == num_reviews:
                 result = {
@@ -230,12 +227,12 @@ def process_one(conf, year):
                 }
                 with open(output_path, "w", encoding="utf-8") as f:
                     json.dump(result, f, indent=2, ensure_ascii=False)
-                print(f"✅ 成功保存：{output_path}")
+                print(f"Saved successfully: {output_path}")
             else:
-                print(f"❌ 最终仍未完成：{paper_id}（成功 {len(gpt_reviews)}/{num_reviews}）")
+                print(f"Final incomplete: {paper_id} ({len(gpt_reviews)}/{num_reviews} successful)")
 
 
-# 全部处理入口
+# Run all conference-year combinations
 def process_all():
     for conf, years in {
         "ICLR": ["2024", "2025"],
@@ -243,11 +240,10 @@ def process_all():
     }.items():
         for year in years:
             process_one(conf, year)
-#%%
 if __name__ == "__main__":
     # process_all()
-    # process_one("ICLR", "2025")  # ✅ 先只测试一项
-    # process_one("NeurIPS", "2023")
-    # process_one("NeurIPS", "2024")
+    process_one("ICLR", "2025")  
+    process_one("NeurIPS", "2023")
+    process_one("NeurIPS", "2024")
     process_one("ICLR", "2024")
-# %%
+

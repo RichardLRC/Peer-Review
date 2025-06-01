@@ -1,11 +1,10 @@
-#%%
 import os
 import json
 import re
 import time
 from openai import OpenAI
 from tqdm import tqdm
-#%%
+
 assistant_instructions_iclr = """
     You are a professional academic paper reviewer. Evaluate papers based on the grading rubric provided.
     Return your response in JSON format with the following structure:
@@ -115,21 +114,19 @@ assistant_instructions_neurips = """
     }
     """
 
-#%%
 
-OPENAI_API_KEY="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"
-# 初始化 OpenAI 客户端
+
+OPENAI_API_KEY="Your_API_Key"
 client = OpenAI(api_key=OPENAI_API_KEY)
 
-#%%
-# 读取 Markdown 文件文本
+
 def extract_text_from_mmd(mmd_path):
     with open(mmd_path, "r", encoding="utf-8") as f:
         content = f.read()
     content = re.sub(r"(##\s*References\b[\s\S]*?)(\n##\s+[^\n]+)", r"\2", content)
     return content.strip()
 
-# GPT 调用：生成单条评审
+
 def generate_single_review(conf, paper_text, max_retries=2):
     prompt = assistant_instructions_iclr if conf == "ICLR" else assistant_instructions_neurips
     for attempt in range(max_retries):
@@ -147,8 +144,7 @@ def generate_single_review(conf, paper_text, max_retries=2):
             if match:
                 content = match.group(1)
 
-            # 临时打印 GPT 返回调试
-            with open("/root/Peer-Review/debug_log.txt", "a", encoding="utf-8") as f:
+            with open("../debug_log.txt", "a", encoding="utf-8") as f:
                 f.write("\n\n===== GPT OUTPUT START =====\n")
                 f.write(content)
                 f.write("\n===== GPT OUTPUT END =====\n")
@@ -157,13 +153,13 @@ def generate_single_review(conf, paper_text, max_retries=2):
             return review_json.get("review", review_json)
 
         except Exception as e:
-            print(f"⚠️ 第 {attempt+1} 次生成失败：{e}")
+            print(f"Attempt {attempt + 1} failed with error: {e}")
             time.sleep(5)
     return None
 
-# 单个会议年份处理流程
+
 def process_one(conf, year):
-    root_dir = "/root/Peer-Review/Data"
+    root_dir = "../Data"
     labels = ["good", "borderline", "bad"]
 
     for label in labels:
@@ -173,7 +169,7 @@ def process_one(conf, year):
 
 
         if not os.path.exists(real_review_file):
-            print(f"❌ 跳过：缺少真实评审文件 {real_review_file}")
+            print(f"Skipped: Missing real review file {real_review_file}")
             continue
 
         os.makedirs(review_output_folder, exist_ok=True)
@@ -191,7 +187,7 @@ def process_one(conf, year):
                 paper_titles[paper_id] = p.get("title", "Unknown Title")
 
         mmd_files = [f for f in os.listdir(mmd_folder) if f.endswith(".mmd")]
-        for mmd_file in tqdm(mmd_files, desc=f"📂 {conf}{year} - {label}"):
+        for mmd_file in tqdm(mmd_files, desc=f"{conf}{year} - {label}"):
             paper_id = mmd_file.replace(".mmd", "")
             output_path = os.path.join(review_output_folder, f"{paper_id}.json")
 
@@ -202,7 +198,7 @@ def process_one(conf, year):
             num_reviews = paper_review_counts.get(paper_id, 1)
             title = paper_titles.get(paper_id, "Unknown Title")
 
-            print(f"📄 正在生成 {paper_id}（共 {num_reviews} 个 GPT 评审）")
+            print(f"Generating reviews for {paper_id} ({num_reviews} total)")
 
             gpt_reviews = []
             for _ in range(num_reviews):
@@ -210,7 +206,7 @@ def process_one(conf, year):
                 if review:
                     gpt_reviews.append(review)
                 else:
-                    print(f"❌ 生成失败：{paper_id} 的某条评审")
+                    print(f"Generating fails on：{paper_id}")
 
             if gpt_reviews:
                 result = {
@@ -220,11 +216,11 @@ def process_one(conf, year):
                 }
                 with open(output_path, "w", encoding="utf-8") as f:
                     json.dump(result, f, indent=2, ensure_ascii=False)
-                print(f"✅ 成功保存：{output_path}")
+                print(f"Saved successfully: {output_path}")
             else:
-                print(f"⚠️ 全部评审失败：{paper_id}")
+                print(f"Final incomplete: {paper_id} ({len(gpt_reviews)}/{num_reviews} successful)")
 
-# 全部处理入口
+
 def process_all():
     for conf, years in {
         "ICLR": ["2024", "2025"],
@@ -232,11 +228,10 @@ def process_all():
     }.items():
         for year in years:
             process_one(conf, year)
-#%%
 if __name__ == "__main__":
     # process_all()
     process_one("ICLR", "2024")
-    process_one("ICLR", "2025")  # ✅ 先只测试一项
+    process_one("ICLR", "2025")  #
     process_one("NeurIPS", "2023")
     process_one("NeurIPS", "2024")
-# %%
+

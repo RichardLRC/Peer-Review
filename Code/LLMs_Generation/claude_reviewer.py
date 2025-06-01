@@ -1,11 +1,10 @@
-#%%
 import os
 import json
 import re
 import time
 from openai import OpenAI
 from tqdm import tqdm
-#%%
+
 assistant_instructions_iclr = """
     You are a professional academic paper reviewer. Evaluate papers based on the grading rubric provided.
     Only return your response in JSON format with the following structure, Please follow the pattern strictly and no other information should be generated:
@@ -114,25 +113,20 @@ assistant_instructions_neurips = """
       }
     }
     """
+CLAUDE_API_KEY="Your_API_Key"
 
-#%%
-
-CLAUDE_API_KEY="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"
-# 初始化 OpenAI 客户端
 client = OpenAI(
             api_key=CLAUDE_API_KEY,
             base_url="https://api.anthropic.com/v1/"
             
         )
 
-# ========== Claude 输出清洗 ==========
 def clean_claude_output(text: str) -> str:
     text = re.sub(r'(?<!\\)\\(?![nrt"\\/bfu])', r'\\\\', text)
     text = text.replace('\r', '\\r').replace('\n', '\\n').replace('\t', '\\t')
     text = re.sub(r'[\x00-\x08\x0b\x0c\x0e-\x1f]', '', text)
     return text
 
-# ========== 从 Claude 输出中提取第一个 JSON ==========
 def extract_first_json(text: str) -> str:
     stack = []
     start, end = -1, -1
@@ -154,16 +148,11 @@ def extract_first_json(text: str) -> str:
     return None
 
 def extract_valid_json(text: str):
-    """
-    从 Claude 的输出中提取第一个合法 JSON 对象（自动跳过前缀/清洗控制字符）。
-    """
-    # 去掉开头可能的解释性前缀
     json_start = text.find('{')
     if json_start == -1:
         return None
     text = text[json_start:]
 
-    # 匹配完整 JSON 块
     stack = []
     end = -1
     for i, char in enumerate(text):
@@ -180,21 +169,20 @@ def extract_valid_json(text: str):
 
     json_str = text[:end]
 
-    # 尝试解析原始 JSON
     try:
         return json.loads(json_str)
     except json.JSONDecodeError:
-        # 尝试清洗非法字符
+
         cleaned = re.sub(r'[\x00-\x1F\x7F]', '', json_str)
         try:
             return json.loads(cleaned)
         except Exception as e2:
-            print(f"❌ JSON 解析失败：{e2}")
-            print("🔎 内容预览：", cleaned[:200])
+            print(f" Failed to decode JSON: {e2}")
+            print("Preview:", cleaned[:200])
             return None
         
         
-# ========== 提取 MMD 内容 ==========
+
 def extract_text_from_mmd(mmd_path):
     with open(mmd_path, "r", encoding="utf-8") as f:
         content = f.read()
@@ -218,12 +206,9 @@ def generate_single_review(conf, paper_text, max_retries=2):
             review_json = extract_valid_json(content)
 
             if review_json is None:
-                raise ValueError("❌ 无法从输出中提取有效 JSON")
+                raise ValueError("Failed to extract valid JSON")
             
-            
-
-            # Log 原始 Claude 输出
-            with open("/root/Peer-Review/claude_debug_log.txt", "a", encoding="utf-8") as f:
+            with open("../claude_debug_log.txt", "a", encoding="utf-8") as f:
                 f.write("\n\n===== GPT OUTPUT START =====\n")
                 # f.write(content)
                 f.write(json.dumps(review_json, indent=2, ensure_ascii=False))
@@ -231,38 +216,14 @@ def generate_single_review(conf, paper_text, max_retries=2):
                 
             return review_json.get("review", review_json)
         except Exception as e:
-            print(f"⚠️ 第 {attempt+1} 次生成失败：{e}")
+            print(f"Attempt {attempt+1} failed: {e}")
             time.sleep(5)
 
     return None
 
-    #         json_str = extract_first_json(content)
 
-    #         if not json_str:
-    #             print("❌ 无法提取 JSON 内容")
-    #             return None
-
-    #         try:
-    #             return json.loads(json_str).get("review", json.loads(json_str))
-    #         except json.JSONDecodeError as e:
-    #             print(f"⚠️ 初次解析失败：{e}")
-    #             safe_json = clean_claude_output(json_str)
-    #             try:
-    #                 return json.loads(safe_json).get("review", json.loads(safe_json))
-    #             except Exception as e2:
-    #                 print(f"⚠️ 清洗后仍失败：{e2}")
-    #                 print("📎 内容预览：", safe_json[:200])
-    #                 return None
-
-    #     except Exception as e:
-    #         print(f"⚠️ 第 {attempt+1} 次生成失败：{e}")
-    #         time.sleep(5)
-    # return None
-
-
-# ========== 单个年份 + 标签处理 ==========
 def process_one(conf, year):
-    root_dir = "/root/Peer-Review/Data"
+    root_dir = "../Data"
     labels = ["good", "borderline", "bad"]
 
     for label in labels:
@@ -271,7 +232,7 @@ def process_one(conf, year):
         real_review_file = os.path.join(root_dir, conf, year, "real_review", f"{label}_papers", f"{label}_reviews.json")
 
         if not os.path.exists(real_review_file):
-            print(f"❌ 跳过：缺少真实评审文件 {real_review_file}")
+            print(f"Skipping: Missing real review file {real_review_file}")
             continue
 
         os.makedirs(review_output_folder, exist_ok=True)
@@ -289,7 +250,7 @@ def process_one(conf, year):
                 paper_titles[paper_id] = p.get("title", "Unknown Title")
 
         mmd_files = [f for f in os.listdir(mmd_folder) if f.endswith(".mmd")]
-        for mmd_file in tqdm(mmd_files, desc=f"📂 {conf}{year} - {label}"):
+        for mmd_file in tqdm(mmd_files, desc=f"{conf}{year} - {label}"):
             paper_id = mmd_file.replace(".mmd", "")
             output_path = os.path.join(review_output_folder, f"{paper_id}.json")
 
@@ -300,10 +261,10 @@ def process_one(conf, year):
             num_reviews = paper_review_counts.get(paper_id, 1)
             title = paper_titles.get(paper_id, "Unknown Title")
 
-            print(f"📄 正在生成 {paper_id}（共 {num_reviews} 个 GPT 评审）")
+            print(f"Generating reviews for {paper_id} ({num_reviews} total)")
 
             gpt_reviews = []
-            max_total_attempts = num_reviews * 3  # 最多尝试 3 倍
+            max_total_attempts = num_reviews * 3
             attempts = 0
 
             while len(gpt_reviews) < num_reviews and attempts < max_total_attempts:
@@ -312,7 +273,7 @@ def process_one(conf, year):
                 if review:
                     gpt_reviews.append(review)
                 else:
-                    print(f"⚠️ 第 {attempts} 次尝试失败（目标 {num_reviews}，当前成功 {len(gpt_reviews)}）")
+                    print(f"Attempt {attempts} failed (target {num_reviews}, current {len(gpt_reviews)})")
 
             if len(gpt_reviews) == num_reviews:
                 result = {
@@ -322,11 +283,10 @@ def process_one(conf, year):
                 }
                 with open(output_path, "w", encoding="utf-8") as f:
                     json.dump(result, f, indent=2, ensure_ascii=False)
-                print(f"✅ 成功保存：{output_path}")
+                print(f"Successfully saved: {output_path}")
             else:
-                print(f"❌ 最终仍未完成：{paper_id}（成功 {len(gpt_reviews)}/{num_reviews}）")
+                print(f"Incomplete result: {paper_id} (success {len(gpt_reviews)}/{num_reviews})")
 
-# ========== 主入口 ==========
 def process_all():
     for conf, years in {
         "ICLR": ["2024", "2025"],
@@ -334,11 +294,11 @@ def process_all():
     }.items():
         for year in years:
             process_one(conf, year)
-#%%
+
 if __name__ == "__main__":
     # process_all()
-    process_one("ICLR", "2024")  # ✅ 先只测试一项
+    process_one("ICLR", "2024") 
     process_one("ICLR", "2025")
-    # process_one("NeurIPS", "2023")
-    # process_one("NeurIPS", "2024")
-# %%
+    process_one("NeurIPS", "2023")
+    process_one("NeurIPS", "2024")
+
