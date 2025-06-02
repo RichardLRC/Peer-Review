@@ -47,3 +47,4 @@ All processed data, including real human reviews, LLM-generated reviews, data us
 We provide standardized prompt templates used for LLM-based review generation, aligned with official review rubrics from ICLR and NeurIPS. These templates help ensure consistency in review outputs across different models and conferences.
 
 ![Prompt Template Diagram](images/NeurIPS_Prompt.png)
+![Prompt Template Diagram](images/ICLR_Prompt.png)
