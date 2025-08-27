@@ -164,7 +164,7 @@ def generate_single_review(conf, paper_text, max_retries=2):
     print("All Gemini attempts failed.")
     return None
 
-# 单个会议年份处理流程
+# Process one conference per year
 def process_one(conf, year):
     root_dir = "../Data"
     labels = ["good", "borderline", "bad"]
